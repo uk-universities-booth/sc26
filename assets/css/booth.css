@@ -1,0 +1,498 @@
+/* =====================================================================
+   BOOTH.CSS - MAP KIOSK STYLES
+   =====================================================================
+
+   HOW TO FIND THINGS
+   Press Ctrl+F (Cmd+F) and search for the tag in square brackets, e.g. [B6].
+
+   HOW THIS FILE IS ORGANISED
+   PART 0  Basics (colours, kiosk chrome, base text size)
+   PART A  DESKTOP / LANDSCAPE layout. These rules are the DEFAULT, so they
+           also apply on phone and iPad unless PART B overrides them.
+   PART B  PHONE + iPAD PORTRAIT overrides (comes later, so it wins).
+   PART C  Small phones only (screen 520px wide or less)
+   PART D  iPad portrait only (700px+ wide)
+   PART E  Reduced motion
+
+   GOLDEN RULE
+   - To change something on phone/iPad ONLY  -> edit it in PART B (or C / D)
+   - To change something on every screen     -> edit it in PART A
+   - If an edit in PART A "does nothing" on phone, PART B has its own value
+     for the same thing. Search for the same class name and edit that one.
+
+   UNITS
+   "em" = relative to the base text size set in [0.3]. Change the base size
+   and everything scales. 1em = base size, .5em = half of it, 2em = double.
+
+   QUICK MAP OF WHERE THINGS LIVE
+   Programme rows in the results list ........ [A6]  (phone/iPad: [B6])
+   CAKE card (end of the list) ............... [A3b] (phone/iPad: [B6b])
+   Map + SC26 disclaimer strip ............... [A7]  [A7b] (phone/iPad: [B2] [B2b])
+   "About this map" dialog ................... [A17]
+   Programme tabs inside the popup ........... [A12] (phone/iPad: [B9])
+   Popup content (title, facts, text) ........ [A13] (phone/iPad: [B10])
+   Popup buttons ............................. [A14] (phone/iPad: [B11])
+   QR code ................................... [A15]
+   Map dots and labels ....................... [A8] [A9]
+   Bottom drawer (phone/iPad) ................ [B3] [B4] [B5]
+   Filter chips .............................. [A4]  (panel: [B5])
+   ===================================================================== */
+
+
+/* =====================================================================
+   PART 0 - BASICS
+   ===================================================================== */
+
+/* [0.1] COLOURS - change these to recolour the whole kiosk
+   --ink  main text and dark buttons     --mut  grey secondary text
+   --line borders and dividers            --bg   light panel background
+   --acc  teal accent (links, focus rings, filter badge)                  */
+:root{--ink:#16213a;--mut:#56627a;--line:#e5dcd6;--bg:#f5f2ee;--acc:#0b6b73}
+[hidden]{display:none!important}
+
+/* [0.2] KIOSK CHROME - hides the Jekyll site header/footer and the page scroll.
+   To bring the normal site header/footer back, delete the kiosk line in acc.md. */
+.kiosk,.kiosk body{overflow:hidden;-webkit-tap-highlight-color:transparent;overscroll-behavior:none;
+  background:radial-gradient(circle at 0 0,#dcecee,transparent 50%),radial-gradient(circle at 100% 100%,#e9e4f4,transparent 50%),#f6f8fa}   /* <- page background gradient */
+.kiosk .masthead,.kiosk .page__footer,.kiosk .page__hero,.kiosk .skip-links{display:none!important}
+.kiosk #main{max-width:none!important;width:100%!important;margin:0!important;padding:0!important}
+.kiosk button,.kiosk a{touch-action:manipulation}
+/* touch lock: only active when the URL has ?kiosk (stops text selection / long-press menus) */
+.lock,.lock body{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.lock input{-webkit-user-select:text;user-select:text}
+
+/* [0.3] BASE TEXT SIZE - the master size everything else scales from.
+   clamp(smallest, scales-with-screen-height, largest).
+   2vh = 2% of the screen height, so iPads get bigger text than phones.
+   Make ALL text smaller/bigger: change 15px / 2vh / 20px. */
+.stage,.mdl{font-family:"Instrument Sans",system-ui,sans-serif;color:var(--ink);line-height:1.4;font-size:clamp(15px,2vh,20px)}
+
+/* [0.4] HEADINGS RESET - removes the Jekyll theme's heading styles. Rarely needs editing. */
+.stage h1,.stage h3,.mdl h2,.mdl h3,.mdl h4{font-family:inherit;font-weight:700;color:var(--ink);border:0;margin:0;padding:0;letter-spacing:-.01em;line-height:1.12}
+.stage p,.mdl p,.mdl ul,.mdl dl,.mdl dd{margin:0}
+.stage a,.mdl a{text-decoration:none}
+.stage button,.stage input,.mdl button{font:inherit}
+
+/* [0.5] KEYBOARD FOCUS RING - the teal outline shown around the focused element */
+.stage button:focus-visible,.stage input:focus-visible,.stage .grab:focus-visible,.stage a:focus-visible,.mdl :focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+
+
+/* =====================================================================
+   PART A - DESKTOP / LANDSCAPE (default for every screen)
+   List on the left, map on the right.
+   ===================================================================== */
+
+/* [A1] PAGE LAYOUT
+   grid-template-columns: left column (22em-34em wide) + map (rest).
+   gap: space between list and map.   padding: space around the screen edge. */
+.stage{display:grid;grid-template-columns:minmax(22em,34em) minmax(0,1fr);gap:2em;height:100vh;height:100dvh;padding:max(1.2em,env(safe-area-inset-top)) max(2em,env(safe-area-inset-right)) max(1.2em,env(safe-area-inset-bottom)) max(2em,env(safe-area-inset-left));box-sizing:border-box}
+.side{display:flex;flex-direction:column;gap:.7em;min-height:0}     /* left column: gap = space between title, search, chips, list */
+
+/* [A2] TITLE + SEARCH BOX */
+.brand h1{font-size:2.1em;font-weight:700}                           /* page title size */
+.lead{color:var(--mut);margin-top:.4em}                              /* "Tap a numbered circle..." line. .lead-2 = its second sentence (hidden on small phones: see [C1]) */
+.search input{width:100%;box-sizing:border-box;min-height:3em;padding:0 1.1em;border:2px solid var(--line);border-radius:99px;background:#fff;color:var(--ink);font-size:max(16px,1.05em);-webkit-appearance:none;appearance:none}
+/* ^ min-height = search box height. font-size is never below 16px so iPhones do not zoom in on tap. */
+.search input:focus{border-color:var(--acc);outline:0}
+
+/* [A3] DRAWER WRAPPER (desktop)
+   On desktop the "drawer" is just invisible plumbing (display:contents),
+   so the chips, status bar and results sit in the sidebar like normal.
+   On phone/iPad it becomes the bottom drawer - see [B3].
+   "order" controls the sequence: chips (0), status bar (1), results (2), CAKE card (3). */
+.drawer{display:flex;flex-direction:column;gap:.7em;flex:1;min-height:0}
+.dbody,.filters{display:contents}
+.grab{order:1}
+.results{order:2}
+.pill,.flabel,.fbtn,.lbtn{display:none}     /* phone-only bits (handle pill, labels, Filters/Show list buttons) hidden on desktop */
+
+/* [A3b] CAKE CARD - at the bottom of the sidebar (desktop) / end of the drawer list (phone/iPad)
+   Links to cake.ac.uk. On the booth iPad (?kiosk) a tap opens the "About this map" dialog instead (see booth.js). */
+.cake{order:3;flex:none;display:flex;flex-direction:column;gap:.2em;padding:.7em 1em;border:1px solid var(--line);border-left:.4em solid var(--acc);border-radius:.3em .9em .9em .3em;background:#fff;color:var(--ink);cursor:pointer}
+.cake:active{background:var(--bg)}
+.cake strong{font-size:.9em;line-height:1.25}
+.cake span{font-size:.8em;color:var(--mut);line-height:1.35}
+
+/* [A4] FILTER CHIPS ("All levels", "MSc", subject chips...)
+   min-height = chip height.  padding = space inside.  font-size = text size.
+   The dark "selected" look is the aria-pressed=true rule. */
+.chips{display:flex;gap:.45em;flex-wrap:wrap}
+.chips button{min-height:2.7em;padding:.3em 1em;border:1.5px solid var(--line);border-radius:99px;background:#fff;color:var(--ink);font-size:.88em;font-weight:500;cursor:pointer}
+.chips button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:#fff}
+#topics{max-height:6.2em;overflow-y:auto}     /* subject chips: max height before they scroll (desktop) */
+
+/* [A5] STATUS BAR - "24 programmes at 12 universities" + Clear button */
+.bar{display:flex;align-items:center;gap:.8em}
+.status{flex:1;display:flex;align-items:center;justify-content:space-between;gap:1em;min-height:2.7em;color:var(--mut);font-weight:600}
+.status strong{font-weight:700}
+.status .sub{font-weight:500}                /* the "at 12 universities" part */
+.status button{min-height:2.7em;padding:0 1em;border:0;background:none;color:var(--acc);font-weight:700;text-decoration:underline;cursor:pointer}   /* "Clear" link */
+
+/* [A6] RESULTS LIST - PROGRAMME ROWS UNDER EACH UNIVERSITY NAME
+   (the cards in the list, not the popup)
+   .results  the scrolling area. gap = space between universities.
+   .grp      one university group.   .grp h3 = university name above its rows.
+   .row      ONE PROGRAMME CARD. EDIT HERE to change card size:
+               min-height  = minimum card height
+               padding     = space inside (top/bottom  left/right)
+               font-size   = not set, so it uses base size [0.3]. Add e.g. font-size:.9em to shrink the programme name.
+   .row small = the grey line under the name ("MSc, Full-time").
+               font-size:.6em = 60% of the base size. Raise or lower it.
+   NOTE: these apply on EVERY screen. Phone/iPad has no separate .row rule in Part B,
+   so editing here also changes phone/iPad. */
+.results{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;display:flex;flex-direction:column;gap:1em;padding:0 .2em 1em 0}
+.grp{display:flex;flex-direction:column;gap:.35em}
+.grp h3{font-size:1em;font-weight:600;color:var(--mut);padding-left:.2em}
+.row{text-align:left;min-height:2em;padding:.65em 1em;border:1px solid var(--line);border-left:.4em solid var(--c);border-radius:.3em .9em .9em .3em;background:#fff;color:var(--ink);font-weight:600;line-height:1.25;cursor:pointer}
+.row:active{background:var(--bg)}
+.row small{display:block;margin-top:.2em;font-weight:400;color:var(--mut);font-size:.6em}
+.none{padding:2em 1em;text-align:center;color:var(--mut);display:flex;flex-direction:column;gap:1em;align-items:center}   /* "No programmes match" message */
+
+/* [A7] MAP CONTAINER
+   --s = DOT SIZE. clamp(smallest, scales-with-map-width, largest). */
+.mapwrap{container-type:size;min-height:0;display:flex;justify-content:center;align-items:center}
+.map{--s:clamp(30px,6.4cqw,54px);container-type:inline-size;position:relative;width:min(100cqw,calc(100cqh*var(--r,.75)));aspect-ratio:var(--r,.75);border-radius:1.6em;overflow:hidden;outline:1px solid var(--line)}
+.map img{width:100%;height:100%;display:block;margin:0;pointer-events:none}
+
+/* [A7b] MAP COLUMN + SC26 DISCLAIMER STRIP under the map
+   .mapcol  wraps the map and the strip (it is the second column of the page grid).
+   .mapnote the always-visible strip: "SC26 UK Universities booth only. Not all UK universities are shown." + "About this map" button.
+            font-size = text size.   padding = space inside.
+   The "About this map" button opens the dialog in [A17]. */
+.mapcol{display:flex;flex-direction:column;gap:.6em;min-width:0;min-height:0}
+.mapcol .mapwrap{flex:1 1 0}
+.mapnote{flex:none;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:.3em .8em;padding:.5em 1em;border:1px solid var(--line);border-radius:1em;background:rgba(255,255,255,.85);font-size:.82em;line-height:1.3;color:var(--mut);text-align:center}
+.mapnote strong{color:var(--ink)}
+.mapnote button{display:inline-flex;align-items:center;gap:.5em;min-height:2.6em;padding:0 1em;border:1.5px solid var(--acc);border-radius:99px;background:#fff;color:var(--acc);font-weight:700;cursor:pointer}
+.mapnote button::before{content:"i";display:inline-grid;place-items:center;width:1.5em;height:1.5em;border-radius:50%;background:var(--acc);color:#fff;font:italic 700 .85em serif}
+
+/* [A8] MAP DOTS (the numbered circles)
+   border width scales with dot size. font-size = the number inside.
+   .dot::before = invisible extra tap area around each dot (inset:-10px).
+   .dot.hi = dot highlighted while you hover/focus its row in the list.
+   .filtered .dot.empty = dots with no match fade when a filter/search is active. */
+.dot{position:absolute;width:var(--s);height:var(--s);padding:0;border-radius:50%;background:#fff;border:calc(var(--s)*.14) solid var(--c);transform:translate(-50%,-50%);cursor:pointer;z-index:2;font-weight:700;font-size:calc(var(--s)*.42);color:var(--ink);transition:transform .15s,opacity .2s}
+.dot::before{content:"";position:absolute;inset:-10px}
+.dot:active{transform:translate(-50%,-50%) scale(1.25);z-index:5}
+.dot:not(.empty)::after{content:"";position:absolute;inset:-35%;border-radius:50%;border:2px solid var(--c);opacity:.5;pointer-events:none}   /* faint outer ring on active dots */
+.filtered .dot.empty{opacity:.35;filter:grayscale(1)}
+.filtered .dot.empty .lb{opacity:0}
+.dot.hi{transform:translate(-50%,-50%) scale(1.4);z-index:6;outline:3px solid var(--c);outline-offset:3px}
+.dot .num{display:block;line-height:1}
+
+/* [A9] MAP LABELS (university names next to dots)
+   font-size = clamp(smallest, scales-with-map, largest).
+   .right / .left / .bottom = which side of the dot the label sits on
+   (set per university with "label:" in _data/universities). */
+.lb{position:absolute;white-space:nowrap;padding:.1em .55em;border-radius:99px;background:rgba(255,255,255,.92);color:var(--ink);font-size:clamp(11px,2.6cqw,15px);font-weight:700;pointer-events:none;border:1px solid var(--line)}
+.lb.right{left:calc(100% + 6px);top:50%;transform:translateY(-50%)}
+.lb.left{right:calc(100% + 6px);top:50%;transform:translateY(-50%)}
+.lb.bottom{top:calc(100% + 4px);left:50%;transform:translateX(-50%)}
+
+/* [A10] POPUP - the dark overlay and white sheet
+   .mdl   full-screen dark backdrop.
+   .sheet the white popup. width/height = size on desktop.
+          border-top colour = the university's brand colour. */
+.mdl{position:fixed;inset:0;z-index:99999;display:grid;place-items:center;background:rgba(10,16,32,.62);animation:fade .2s}
+.sheet{display:flex;flex-direction:column;width:min(96vw,1240px);height:min(94dvh,920px);background:#fff;border-radius:1.4em;overflow:hidden;border-top:.5em solid var(--c);animation:rise .28s}
+@keyframes fade{from{opacity:0}}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}}
+
+/* [A11] POPUP HEADER - city photo strip with logo, name, location and Close button */
+.m-head{position:relative;display:flex;align-items:center;gap:1.1em;padding:1em 1.4em;color:#fff;background:#16213a center/cover}
+.m-head::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,16,32,.9),rgba(10,16,32,.55))}   /* dark overlay on the photo */
+.m-head>*{position:relative}
+.m-logo{width:4.4em;height:4.4em;object-fit:contain;background:#fff;border-radius:1em;padding:.4em;margin:0}
+.m-title{flex:1;min-width:0}
+.m-title h2{color:#fff;font-size:1.9em}      /* university name in the popup header */
+.m-title p{opacity:.9;margin-top:.25em}      /* location line */
+.m-close{min-width:5.5em;min-height:3.2em;padding:0 1.3em;border:0;border-radius:99px;background:#fff;color:var(--ink);font-weight:700;cursor:pointer}
+
+/* [A12] POPUP - PROGRAMME LIST (the programmes of ONE university)
+   On desktop: a column on the left of the popup.
+   On phone/iPad: a row of tabs across the top - see [B9].
+   .m-list button = one programme button.
+        min-height / padding = card size.   font-weight/line-height = text.
+        small = grey line under the name ("MSc, Full-time").
+        [aria-current=true] = the currently selected programme (coloured border).
+        .all = the dashed "Show all N programmes" button. */
+.m-body{display:grid;grid-template-columns:minmax(14em,31%) minmax(0,1fr);flex:1;min-height:0}
+.m-list{overflow-y:auto;overscroll-behavior:contain;padding:.8em;background:var(--bg);border-right:1px solid var(--line);display:flex;flex-direction:column;gap:.5em}
+.m-list button{flex:none;text-align:left;min-height:3.4em;padding:.7em 1em;border:2px solid transparent;border-radius:.9em;background:#fff;color:var(--ink);cursor:pointer;font-weight:600;line-height:1.25}
+.m-list button small{display:block;margin-top:.25em;font-weight:400;color:var(--mut);font-size:.82em}
+.m-list button[aria-current=true]{border-color:var(--c);border-left-width:.4em}
+.m-list button.all{background:transparent;border:2px dashed var(--line);text-align:center;color:var(--mut)}
+
+/* [A13] POPUP - PROGRAMME DETAIL (the main content area)
+   .m-detail   scrolling area. padding = space around content (top right/left bottom).
+   .m-detail h3  programme title.
+   .tags       the little pills (MSc, Full-time...).  .tags span.q = first pill, in brand colour.
+   .sum        summary paragraphs.  .sum.lead = the first, larger paragraph.
+   .facts      Duration / Starts / Apply by box.  dt = label, dd = value.
+   .cols       two columns on desktop: main text (left) + side panel (right, 12-15em).
+   .hl         highlights list.   .txt = text blocks.   .note = small grey notes. */
+.m-detail{overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:1.6em 2em 2.5em}
+.m-detail h3{font-size:1.9em;line-height:1.1;margin:.45em 0 0}
+
+.tags{display:flex;flex-wrap:wrap;gap:.4em}
+.tags span{padding:.2em .8em;border-radius:99px;border:1px solid var(--line);background:var(--bg);font-size:.85em;font-weight:500}
+.tags span.q{background:var(--c);border-color:var(--c);color:#fff;font-weight:700}
+.sum{margin-top:.9em;max-width:70ch}
+.sum.lead{font-size:0.9em;margin-top:1em;margin-bottom:1rem;}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(9em,1fr));gap:1px;margin-top:1.4rem;background:var(--line);border:1px solid var(--line);border-radius:.9em;overflow:hidden}
+.facts div{background:#fff;padding:.8em 1.1em}
+.facts dt{font-size:.8em;font-weight:600;color:var(--mut)}
+.facts dd{margin-top:.15em;font-size:1.05em;font-weight:700}
+.facts .tbc dd{color:var(--mut);font-weight:400}                     /* "To be confirmed" values */
+.cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(12em,15em);gap:2em;margin-top:1.8em;align-items:start}
+.cols h4{font-size:1.05em;margin:0 0 .6em; margin-top:1rem;}                           /* section headings: Highlights, Entry requirements... */
+.cols section+section{margin-top:1.6em}
+.txt{max-width:68ch}
+.txt p+p{margin-top:.6em}
+.hl{list-style:none;padding:0;display:flex;flex-direction:column;gap:.5em}
+.hl li{padding:.7em 1em;border-left:.3em solid var(--c);border-radius:.3em .7em .7em .3em;background:var(--bg)}
+.note{margin-top:1.2em;color:var(--mut);font-size:.7rem}
+
+/* [A14] BUTTONS in the popup
+   .btns = the group of link buttons ("View programme page", "Department"...).
+   .bt   = a dark filled button.   .bt.o = outlined version.
+   .morelinks = the extra links on phone/iPad (Department, More information, Watch video). */
+.btns{display:flex;flex-direction:column;gap:.6em;margin-bottom:1.6em}
+.btns .bt{justify-content:center}
+.bt{display:inline-flex;align-items:center;min-height:3.2em;padding:0 1.3em;border-radius:.8em;border:2px solid var(--ink);background:var(--ink);color:#fff;font-weight:600;cursor:pointer}
+.bt.o{background:transparent;color:var(--ink)}
+.morelinks{display:flex;flex-wrap:wrap;gap:.5em}
+
+/* [A15] QR CODE
+   svg width/height = QR size (9em).  padding = white border around it. */
+.qr{display:flex;flex-direction:column;gap:.6em;align-items:flex-start}
+.qr svg{width:9em;height:9em;padding:.6em;background:#fff;border:1px solid var(--line);border-radius:.8em;box-sizing:content-box}
+.qr p{font-size:.85em;color:var(--mut)}                              /* "Scan with your phone camera..." caption */
+
+/* [A16] SINGLE-PROGRAMME POPUP - when a university has only one programme, the list column is hidden */
+.m-body.solo{grid-template-columns:1fr;grid-template-rows:minmax(0,1fr)}
+.m-body.solo .m-list{display:none}
+
+/* [A17] "ABOUT THIS MAP" DIALOG (reuses the .mdl backdrop and .sheet from [A10])
+   Three blocks: how to read the map (.a-list), the SC26 disclaimer (.a-warn), and CAKE (.a-cake, with QR).
+   width = dialog width (36em max).   .mini-dot = the little sample circles that mirror the map dots.
+   Phone/iPad: it docks to the bottom like the university popup, see [B7]. */
+.mdl .sheet.about{--c:var(--acc);width:min(96vw,36em);height:auto;max-height:90dvh}
+.a-head{display:flex;align-items:center;justify-content:space-between;gap:1em;padding:1em 1.4em;border-bottom:1px solid var(--line)}
+.a-head h2{font-size:1.5em}
+.a-head .m-close{background:var(--bg);border:1px solid var(--line)}
+.a-body{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;display:flex;flex-direction:column;gap:1.3em;padding:1.2em 1.4em 1.6em}
+.a-body h3{font-size:1.05em;margin-bottom:.5em}
+.a-body p{max-width:60ch}
+.a-list{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:.7em}
+.a-list li{display:flex;align-items:center;gap:.8em}
+.mini-dot{flex:none;display:inline-grid;place-items:center;width:2em;height:2em;border-radius:50%;background:#fff;border:.28em solid var(--acc);font-size:.85em;font-weight:700;line-height:1}
+.mini-dot.off{border-color:#9aa3b2;opacity:.5}
+.mini-dot.tap{border-style:dashed}
+.a-warn{padding:.9em 1.1em;border-left:.3em solid var(--acc);border-radius:.3em .9em .9em .3em;background:var(--bg)}
+.a-cake{display:flex;flex-direction:column;align-items:flex-start;gap:.8em}
+.a-cake h3{margin-bottom:0}
+.a-cake .qr{flex-direction:row;align-items:center;gap:1em}
+.a-cake .qr svg{width:7em;height:7em}
+
+
+/* =====================================================================
+   PART B - PHONE + iPAD PORTRAIT
+   Applies when the screen is taller than wide OR 820px wide or less.
+   These rules override Part A.
+   The map is always visible. Results live in a bottom drawer with three
+   positions (peek, half, full) that you drag or tap. Filters sit inside it.
+   If you change the 5.6em peek height, change PEEK_EM in booth.js too.
+   ===================================================================== */
+@media (max-aspect-ratio:1/1),(max-width:820px){
+
+  /* [B1] PAGE LAYOUT (phone/iPad)
+     One column: title + search on top, map below.
+     padding = space around the screen edge (top right/left bottom). */
+  .stage{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);gap:.5em;
+    padding:max(.8em,env(safe-area-inset-top)) max(1.1em,env(safe-area-inset-right)) 0 max(1.1em,env(safe-area-inset-left))}
+  .side{flex:none;gap:.6em}
+  .brand h1{font-size:1.55em}                  /* page title size on phone/iPad (smaller on phones: see [C1]) */
+  .lead{font-size:.95em;margin-top:.3em}       /* "Tap a numbered circle..." line (shortened on small phones: see [C1]) */
+  .search input{min-height:2.9em}              /* search box height */
+
+  /* [B2] MAP COLUMN (phone/iPad)
+     The padding-bottom now sits on .mapcol (map + disclaimer strip together),
+     so the strip stays visible just above the drawer.
+     5.6em = drawer closed (peek).  46vh = drawer half/full open (map shrinks above it).
+     --s = dot size on phone/iPad.  .lb = map label text size. */
+  .mapcol{padding-bottom:calc(5.6em + env(safe-area-inset-bottom));transition:padding-bottom .32s cubic-bezier(.2,.8,.2,1)}
+  .stage[data-sheet=half] .mapcol,.stage[data-sheet=full] .mapcol{padding-bottom:46vh;padding-bottom:46dvh}
+  .map{--s:clamp(32px,8.2cqw,52px);border-radius:1.2em}
+  .lb{font-size:clamp(11px,2.8cqw,15px)}
+
+  /* [B2b] DISCLAIMER STRIP (phone/iPad) - slightly smaller so the map keeps its height */
+  .mapnote{font-size:.78em;padding:.4em .8em}
+
+  /* [B3] THE BOTTOM DRAWER (phone/iPad)
+     The white panel that slides up from the bottom.
+     Height in each state:
+        closed ("peek") = 5.6em  (set on .drawer below)
+        half            = 46vh   (.drawer[data-state=half])
+        full            = 90vh   (.drawer[data-state=full])
+     Change the half/full numbers to make it taller or shorter.
+     If you change the half height, also change 46vh in [B2] so the map matches. */
+  .drawer{position:fixed;left:0;right:0;bottom:0;z-index:50;flex:none;gap:0;box-sizing:border-box;
+    height:calc(5.6em + env(safe-area-inset-bottom));padding-bottom:env(safe-area-inset-bottom);
+    background:#fff;border-radius:1.5em 1.5em 0 0;box-shadow:0 -10px 40px rgba(22,33,58,.2);overflow:hidden;
+    transition:height .32s cubic-bezier(.2,.8,.2,1)}
+  .drawer[data-state=half]{height:46vh;height:46dvh}
+  .drawer[data-state=full]{height:90vh;height:90dvh}
+  .drawer.drag{transition:none}                /* no animation while your finger is dragging it */
+
+  /* [B4] DRAWER TOP BAR - the part visible when closed
+     .pill  = the little grey drag handle.
+     .status = "24 programmes" text + Clear.
+     .fbtn  = Filters button (with number badge).   .lbtn = dark Show list / Hide list button. */
+  .grab{order:0;flex:none;touch-action:none;cursor:grab;padding:.5em max(1.1em,calc((100vw - 58em)/2)) .2em}
+  .pill{display:block;width:3em;height:.32em;margin:0 auto .55em;border-radius:99px;background:#cfd5de}
+  .status{justify-content:flex-start;gap:.7em;min-width:0;font-size:.95em}
+  .status p{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .status button{padding:0 .3em}
+  .fbtn,.lbtn{display:inline-flex;align-items:center;flex:none;gap:.45em;min-height:2.7em;padding:0 1.05em;border:1.5px solid var(--line);border-radius:99px;background:#fff;color:var(--ink);font-size:.9em;font-weight:600;cursor:pointer}
+  .fbtn[aria-expanded=true]{border-color:var(--acc);color:var(--acc)}   /* Filters button while the panel is open */
+  .lbtn{background:var(--ink);border-color:var(--ink);color:#fff}
+  .badge{display:inline-grid;place-items:center;min-width:1.5em;height:1.5em;padding:0 .3em;border-radius:99px;background:var(--acc);color:#fff;font-size:.8em}   /* the number on the Filters button */
+
+  /* [B5] DRAWER BODY + FILTER PANEL
+     .dbody   the scrolling area inside the drawer (filters + results + CAKE card).
+     .filters the filter panel. Hidden until you tap Filters (.filt-open shows it).
+     .flabel  the "Level" / "Subject" labels.
+     58em in the padding = max width of the content on wide iPads. */
+  .dbody{display:block;flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;
+    padding:.5em max(1.1em,calc((100vw - 58em)/2)) 2em;transition:visibility 0s}
+  .drawer[data-state=peek] .dbody{visibility:hidden;transition-delay:.32s}
+
+  .filters{display:none}
+  .drawer.filt-open .filters{display:flex;flex-direction:column;gap:.5em;padding:.2em 0 1.2em;margin-bottom:1em;border-bottom:1px solid var(--line)}
+  .flabel{display:block;margin-top:.3em;font-size:.9em;font-weight:600;color:var(--mut)}
+  #topics{max-height:none;overflow:visible}
+
+  /* [B6] RESULTS LIST (phone/iPad)
+     Grid of university groups. minmax(min(100%,19em),1fr) = each column is at least 19em wide,
+     so phones get 1 column and iPads get 2. Raise 19em for fewer/wider columns.
+     gap = space between groups (row gap, column gap).
+     The programme card size itself ([.row]) is set in [A6]. */
+  .results{flex:none;overflow:visible;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,19em),1fr));gap:1em 1.2em;align-items:start;padding:0}
+  .none{grid-column:1/-1}
+
+  /* [B6b] CAKE CARD (phone/iPad) - sits at the end of the scrolling list. margin-top = gap above it. */
+  .cake{margin-top:1em}
+
+  /* [B7] POPUP AS A BOTTOM SHEET (phone/iPad)
+     .mdl  = sticks the popup to the bottom of the screen.
+     .sheet width/height = popup size.  94vh = height.  56em = max width.
+     (iPad portrait overrides the size again in [D1].)
+     The "About this map" dialog ([A17]) keeps its own auto height, so it only takes the space it needs. */
+  .mdl{place-items:end center}
+  .sheet{width:min(100vw,56em);height:94vh;height:94dvh;border-radius:1.5em 1.5em 0 0;border-top-width:.4em;transition:transform .25s}
+  .mdl .sheet.about{width:min(100vw,36em);height:auto;max-height:90dvh}
+
+  /* [B8] POPUP HEADER (phone/iPad)
+     ::after = the little white drag pill (swipe the header down to close). */
+  .m-head{padding:1.15em 1.1em .9em;gap:.8em;touch-action:none}
+  .m-head::after{content:"";position:absolute;top:.45em;left:50%;width:2.6em;height:.28em;border-radius:99px;background:rgba(255,255,255,.65);transform:translateX(-50%)}
+  .m-logo{width:3.2em;height:3.2em;border-radius:.8em}      /* logo size */
+  .m-title h2{font-size:1.3em}                              /* university name */
+  .m-title p{font-size:.9em;margin-top:.15em}               /* location */
+  .m-close{min-width:4.6em;min-height:2.8em;padding:0 1em}  /* Close button */
+
+  /* [B9] POPUP PROGRAMME TABS (phone/iPad)
+     The programmes of one university become a sideways-scrolling row of cards.
+     .m-list button:
+        min-width / max-width = card width (12.5em - 16em).
+     To make the tab text smaller, add font-size:.85em to the .m-list button rule.
+     To make the tab cards less tall, reduce padding (set in [A12]) or add min-height. */
+  .m-body{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr)}
+  .m-list{font-size:0.8rem;flex-direction:row;gap:.5em;overflow-x:auto;overflow-y:hidden;padding:.6em;border-right:0;border-bottom:1px solid var(--line);scroll-snap-type:x proximity;scroll-padding-left:1.1em;scrollbar-width:none}
+  .m-list::-webkit-scrollbar{display:none}
+  .m-list button{min-width:12.5em;max-width:16em;scroll-snap-align:start}
+  .m-list button.all{min-width:10em}
+
+  /* [B10] POPUP CONTENT (phone/iPad)
+     .m-detail padding = space around the text (top right/left bottom).
+     .m-detail h3 = programme title.
+     .facts = Duration / Starts / Apply by: 3 columns here (1 column on small phones: see [C1]).
+     .cols = side panel (subjects, careers, QR) now stacks UNDER the main text. */
+  .m-detail{padding:1.1em 1.1em 0}
+  .m-detail h3{font-size:1.6em}
+  .sum{max-width:none}
+  .facts{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .cols{display:flex;flex-direction:column;gap:1.5em;margin-top:1.5em}
+  .cols section+section{margin-top:0}
+  .aux{display:contents}
+  .cols h4{font-size:1.05em}
+
+  /* [B11] STICKY BUTTON BAR (phone/iPad)
+     The bar at the bottom of the popup ("View programme page" + Share) that stays put while you scroll.
+     .btns .bt            = size of each button (flex-basis 10em).
+     .btns .bt:first-child = the main button, wider (14em).
+     .qr = QR code and caption side by side.
+     !! There are TWO .btns blocks here (this one and the next one). The SECOND block wins where
+        they overlap (full-width white background). Safe to merge them into one later. */
+  .btns{order:99;position:sticky;bottom:0;z-index:3;flex-direction:row;flex-wrap:wrap;gap:.6em;margin:0 -1.1em;
+    padding:.8em 1.1em max(.8em,env(safe-area-inset-bottom));background:rgba(255,255,255,.94);
+    -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-top:1px solid var(--line)}
+  .btns .bt{flex:1 1 10em}
+  .btns .bt:first-child{flex:2 1 14em}
+  .qr{flex-direction:row;align-items:center;gap:1em}
+
+  /* [B11b] STICKY BAR, SECOND BLOCK - makes the bar full width with a solid white background (this is what you see) */
+  .btns {order: 99; position: sticky; bottom: 0; z-index: 3; flex-direction: row; flex-wrap: wrap; gap: .6em;
+  /* Full-width white background */
+  margin: 0 -1.1em; padding: .8em 1.1em max(.8em, env(safe-area-inset-bottom)); width: calc(100% + 2.2em); box-sizing: border-box;
+  background: #fff; border-top: 1px solid var(--line); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);}
+
+}
+
+
+/* =====================================================================
+   PART C - SMALL PHONES ONLY (screen 520px wide or less)
+   ===================================================================== */
+@media (max-width:520px){
+  /* [C1] shortens the "Tap a numbered circle..." line (the second sentence is hidden, the first stays),
+     shrinks the title, hides "at 12 universities",
+     and turns the Duration / Starts / Apply by box into a stacked list of rows. */
+  .lead{font-size:.85em}
+  .lead-2{display:none}
+  .brand h1{font-size:1.3em}
+  .status .sub{display:none}
+  .facts{grid-template-columns:1fr}
+  .facts div{display:flex;justify-content:space-between;align-items:baseline;gap:1em}
+  .facts dd{margin:0;text-align:right}
+}
+
+
+/* =====================================================================
+   PART D - iPAD PORTRAIT ONLY (700px+ wide and taller than wide)
+   ===================================================================== */
+@media (min-width:700px) and (max-aspect-ratio:1/1){
+  /* [D1] The popup is centred on iPad instead of docked to the bottom.
+     .sheet height = min(90dvh, 900px)   width = min(100vw, 700px) -> change 700px to make the iPad popup wider/narrower.
+     .m-detail padding / .btns margins = side spacing (the .btns values must stay in step with the .m-detail padding:
+        1.8em padding -> -1.8em margin and 3.6em width).
+     The "About this map" dialog is centred too, and keeps its own size. */
+  .mdl{place-items:center}
+  .sheet{height:min(90dvh,900px);width:min(100vw,700px);border-radius:1.5em}
+  .mdl .sheet.about{height:auto;width:min(96vw,36em)}
+  .brand h1{font-size:2em}                     /* page title size on iPad */
+  .m-detail{padding:1.4em 1.8em 0}
+  .btns {
+  margin-inline: -1.8em;
+  width: calc(100% + 3.6em);
+  padding-inline: 1.8em;
+}
+  .m-list{padding-inline:1.4em}
+}
+
+
+/* =====================================================================
+   PART E - REDUCED MOTION
+   [E1] Turns off all animations for people who have "Reduce Motion" switched on.
+   ===================================================================== */
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
