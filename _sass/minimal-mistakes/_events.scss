@@ -1,0 +1,266 @@
+
+@media (min-width: 1200px) {
+  .events-block__date {
+    width:22%
+  }
+}
+
+.single-event-image {  
+  border-radius: 6px;
+  width: 40%;
+  max-height: 400px;
+  float: left;
+  margin-left: 10px;
+}
+
+.events-image {
+  border-radius: 6px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  object-fit: contain;
+  margin-left: 10px;
+  display: block;
+}
+
+.events-block__date_wrapper {
+  width: 100%
+}
+
+@media (min-width: 992px) {
+  .cli-modal .cli-modal-dialog {
+    max-width:645px
+  }
+
+  .events-block__wrapper {
+    min-height: 220px;
+    display: flex;
+    flex-direction: row-reverse; 
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    align-items: stretch;
+    align-content: stretch
+  }
+  
+  .events-block__date {
+    width: 24%;
+    margin-left: 20px;
+  width: 200px; 
+  height: 300px;
+  border-radius: 5%;
+  margin-left: 20px; 
+  background-color: #B906B9;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+  }
+  
+  .events-block__infos {
+    width: 80%;
+    min-height: 150px;
+    position: relative;
+    padding-bottom: 80px;
+    border-radius: 10px
+  
+  }
+
+  .landscape-block__infos {
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+     border-radius: 10px;
+    padding-bottom: 80px;
+     min-height: 50px;      /* antes 150px o 200px */
+  }
+}
+
+.events-block__wrapper {
+  margin: 0 0 30px;
+    overflow: hidden;
+     min-height: 50px;      /* reduce altura total del bloque */
+  margin-bottom: 20px;    /* un poco menos de espacio entre bloques */
+}
+
+@media (min-width: 768px) {
+  .events-block__infos {
+    padding-bottom:10px
+ 
+  }
+
+  .landscape-block__infos {
+    padding-bottom:10px
+  }
+}
+
+.events-block__infos {
+  padding: 30px;
+  background-color: #f8f5f2
+}
+
+.landscape-block__infos {
+  padding: 30px;
+  background-color: #f8f5f2
+}
+
+.event-title {
+  color: #3a3a3a;
+  font-weight: 700
+}
+
+.flex-event {
+  width: 100%
+}
+
+.events-block__date_wrapper {
+  display: table-cell;
+  vertical-align: middle
+}
+
+.event-date {
+  display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: row;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.events-past {
+  opacity: .8;
+  margin-bottom: 30px
+}
+
+.event-date,.flex-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.event-day {
+  font-size: 68px;
+  font-weight: 600;
+  line-height: 68px
+}
+
+.event-date {
+  background: #B906B9;
+  vertical-align: middle;
+  padding: 24px;
+  justify-content: center
+}
+.event-date.two-dates .event-day {
+  font-size: 46px;
+  letter-spacing: -2px
+}
+
+.event-date.two-dates {
+  
+ width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 0; /* elimina el padding que genera el rectángulo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #B906B9;
+
+}
+
+.two-dates .flex-event:nth-child(2) {
+  border-left: .5px solid #fff
+}
+
+
+.two-dates .flex-event {
+  padding: 0 20px; /* Espacio horizontal dentro de cada bloque de fecha */
+}
+
+.two-dates .flex-event:nth-child(2) {
+  border-left: 0.5px solid #fff;
+  padding-left: 15px; /* Espacio extra para separar de la línea */
+}
+
+
+
+.events-block-group {
+  padding-top: 4em;
+  padding-bottom: 4em
+}
+
+.landscape-block-group {
+  padding-top: 0em;
+  padding-bottom: 0em
+}
+
+.events-block-group__inner-container :last-child {
+  margin-bottom: 0
+}
+
+@media (min-width: 1200px) {
+  .alignfull .events-block-group__inner-container {
+    max-width:1200px;
+    margin: 0 auto
+  }
+}
+
+@media (max-width: 1200px) {
+  .events-block-group {
+    padding:3em
+  }
+
+  .landscape-block-group {
+    padding-top: 0em;
+    padding-bottom: 0em
+  }
+
+  .events-block-group .events-block-group .landscape-block-group {
+    padding: 1.5em
+  }
+}
+
+.events-block-group .landscape-block-group {
+  box-sizing: border-box
+}
+
+.events-block-group {
+  padding-top: 2em;
+  padding-bottom: 2em
+}
+
+.landscape-block-group {
+  padding-top: 0em;
+  padding-bottom: 0em
+}
+
+.events-block__wrapper {
+  display: flex;
+  flex-direction: row-reverse; 
+  align-items: stretch;
+}
+
+
+.events-image {
+  float: left;
+  margin-right: 15px;
+  margin-left: 0;
+  max-width: 300px;
+  border-radius: 6px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+   
+
+}
+
+
+
+
