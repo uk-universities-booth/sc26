@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<div class="tutorial-container">
+  <h1>{{ page.title }}</h1>
+
+  <div class="tutorial-meta">
+
+    {% if page.speaker %}
+    <p><strong>Instructors:</strong> {{ page.speaker }}</p>
+    {% endif %}
+
+    {% if page.institutions %}
+    <p><strong>Institution:</strong> {{ page.institutions }}</p>
+    {% endif %}
+
+    {% if page.day %}
+    <p><strong>Day:</strong> {{ page.day }}</p>
+    {% endif %}
+
+
+    {% if page.room %}
+    <p><strong>Room:</strong> {{ page.room }}</p>
+    {% endif %}
+
+  </div>
+
+  <hr>
+
+  {% if page.description %}
+    <h2>Description</h2>
+    <p>{{ page.description }}</p>
+  {% endif %}
+
+  {% if page.requirements %}
+    <h2>Requirements</h2>
+    <ul>
+      {% for req in page.requirements %}
+      <li>{{ req }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
+
+<style>
+.tutorial-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.tutorial-meta p {
+  margin: 0.3rem 0;
+}
+
+h2 {
+  margin-top: 1.6rem;
+}
+</style>
+

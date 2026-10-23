@@ -1,0 +1,371 @@
+- id: "msc-advanced-computer-science"
+  name: "MSc Advanced Computer Science"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: "To be confirmed"
+  summary: |
+    Designed for computer science graduates, this MSc deepens understanding of computer science theory and practice through research-led teaching of foundational and contemporary topics. Core modules cover advanced programming, machine learning and deep learning, network design and analysis, algorithms and complexity, and research ethics. Options include computer vision, natural language processing, quantum computing, and security engineering and cryptography. Students analyse complex problems and design and evaluate effective solutions through hands-on coding and software development, with potential industry co-supervision of their 60-credit research project.
+  subjects: 
+    - "Computer Science"
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Data Science"
+    - "Quantum Computing"
+    - "Cybersecurity"
+  highlights:
+    - "Potential industry co-supervision of the Advanced Computer Science Project, depending on topic and availability"
+    - "Option modules built around staff specialisms, drawing on the department's research in theory, networks, AI and human systems, and vision, imaging and visualisation"
+    - "A compulsory Advanced Network Design and Analysis module covering social and technological networks, networks-on-chips and data centre networks "
+    - "A purpose-built Computer Science department with labs, computer rooms, open-plan workspace and collaborative breakout spaces"
+    - "Hands-on coding, software development and project work applied to real-world scenarios"
+
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Software Engineering"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: |
+    A 2:1 Bachelor (Honours) degree or international equivalent in Computer Science or joint honours with Computer Science or a related degree with a strong computer science component
+    This programme will not be available to recent graduates who have been awarded an undergraduate degree in Computer Science or Natural Sciences (with Computer Science) from Durham University. These applicants should, if not already graduated, consider continuing to the integrated MEng or MSci award, respectively.
+  programme_url: "https://www.durham.ac.uk/study/courses/advanced-computer-science-g5t609/september-2027/#overview"
+  department_url: "https://www.durham.ac.uk/departments/academic/computer-science/"
+  promo_url: "https://www.durham.ac.uk/departments/academic/science/sci-pgt/"
+
+
+
+
+
+- id: "msc-artificial-intelligence-g6t109"
+  name: "MSc Artificial Intelligence"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: "To be confirmed"
+  summary: |
+    Students develop a strong understanding of computer science theory and practice through research-led teaching across both foundational and contemporary topics, with five core modules covering programming, AI, algorithms, human-AI interaction, research methods and ethics.
+    The programme develops skills in AI, critical thinking, problem-solving, hands-on coding and software development, while giving students opportunities to work on real-world scenarios and cutting-edge research problems in areas such as reinforcement learning, AI and human systems, and vision, imaging and visualisation.
+    A distinctive feature of the programme is its strong industry connections, helping students connect their academic learning with real-world applications.
+  subjects: 
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Data Science"
+    - "PhD / Further Study"
+    - "Academia / Research"
+    - "Software Engineering"
+    - "Industry"
+  highlights: 
+  - "Explore the relationships between Human-AI interaction design, user experience and user trust, while developing ethical and societal principles for interactive AI systems."
+  - "Develop a critical understanding of algorithms, computational complexity and the fundamental ideas underpinning them."
+  - "Gain in-depth knowledge of advanced methodologies and techniques in computer programming."
+  - "The optional modules are built around staff specialisms to ensure all content is current and relevant to the industry."
+  - "Study in a purpose-built Computer Science department with dedicated labs, collaborative workspaces and computer rooms."
+  - "Undertake a research-led project with a supervisor, applying methods and techniques developed through the taught modules."
+
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "PhD / Further Study"
+    - "Academia / Research"
+    - "Software Engineering"
+    - "Industry"
+  entry_requirements: |
+    - A 2:1 Bachelor (Honours) degree or international equivalent in Computer Science or joint honours with Computer Science or a related degree with a strong computer science component.
+    - This programme will not be available to recent graduates who have been awarded an undergraduate degree in Computer Science or Natural Sciences (with Computer Science) from Durham University. These applicants should, if not already graduated, consider continuing to the integrated MEng or MSci award, respectively.
+  programme_url: ""
+  programme_note: "The 2027/28 programme website is expected to be released in October."
+  department_url: "https://www.durham.ac.uk/departments/academic/computer-science/"
+  promo_url: "https://www.durham.ac.uk/departments/academic/science/sci-pgt/"
+
+
+
+
+- id: "msc-computational-astrophysics-g6t209"
+  name: "MSc Computational Astrophysics"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: "To be confirmed"
+  summary: |
+    Students learn to write massively parallel code on Durham’s own computing cluster, analyse large scientific datasets, and explore stellar evolution, galaxy formation and the structure of the Universe. They investigate fundamental questions such as how large-scale surveys and supercomputer simulations can help us understand dark matter and dark energy.
+    Led by the Department of Computer Science, the course brings together expertise from several specialist departments across Durham. This interdisciplinary approach gives students access to a wide range of academic expertise, facilities and equipment, while small cohorts and a research project provide valuable preparation for a PhD or a data-intensive career.
+  subjects:
+    - "High-Performance Computing (HPC)"
+    - "Machine Learning;Data Science"
+    - "Scientific Computing"
+    - "Computational Science"
+    - "Computational Modelling"
+    - "Parallel Computing"
+    - "GPU Computing"
+  highlights:
+    - "Our students have access to a broad range of advanced computing hardware and software, with opportunities to work across environments ranging from interactive teaching laboratories to large-scale high-performance computing clusters. Resources include dedicated GPU clusters, heterogeneous architectures, and specialist software tools for performance analysis, artificial intelligence and data acquisition."
+    - "Students will complete a dissertation-style project on a topic of their choice related to their specialisation, working with an academic with relevant expertise or in close collaboration with an industrial partner."
+    
+  careers:
+    - "HPC / Supercomputing"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "Computational Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+
+  entry_requirements: |
+    •	 A 2:1 BSc (Honours) degree or international equivalent in a field involving substantial quantitative or computational components.
+    •	The ideal applicant has an undergraduate degree in Physics or Astrophysics or another natural science with substantial quantitative components in addition to introductory physics modules.
+    •	Applicants must demonstrate strong programming skills in at least one compiled language (preferably C or C++) and in Python. Proficiency in Python may suffice if the applicant has a strong background in their chosen specialization and engage with our free pre-sessional Scientific Software Development in C and C++ course. We require all applicants demonstrate knowledge of undergraduate-level mathematics, covering linear algebra, calculus, and statistics.
+  programme_url: "https://www.durham.ac.uk/study/courses/computational-astrophysics-g6t209/"
+  department_url: "https://www.durham.ac.uk/departments/academic/computer-science/"
+  promo_url: "https://www.durham.ac.uk/departments/academic/science/sci-pgt/"
+
+
+
+- id: "msc-computational-financial-technology-g6t309"
+  name: "MSc Computational Financial Technology"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: "To be confirmed"
+  summary: |
+    This MSc combines financial mathematics with high-performance computing, scientific computing, machine learning and AI. Students study the mathematical principles behind modern financial markets while gaining hands-on experience with distributed ledgers, smart contracts and decentralised finance. They apply these skills to problems such as portfolio selection, risk management and derivative pricing, using Durham’s large-scale computing cluster. Unlike traditional financial mathematics degrees, the programme places a strong emphasis on computational and data-driven methods, preparing graduates for quantitative and technical roles in banks, asset management firms, trading companies, fintech organisations and other technology-led financial businesses.
+  subjects: 
+    - "High-Performance Computing (HPC)"
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Computational Science"
+    - "Computational Modelling"
+    - "Parallel Computing"
+    - "GPU Computing"
+  highlights: 
+    - "Hands-on financial technology – Gain practical experience designing and deploying financial infrastructures, including distributed ledgers, smart contracts and decentralised finance."
+    - "Advanced financial mathematics – Develop a strong understanding of the mathematical theory behind financial products and derivatives, including their pricing."
+    - "Advanced computational skills – Build a broader computational skill set than traditional financial mathematics degrees, with applications across finance and data-driven technologies."
+    - "High-performance computing – Access Durham’s large-scale computing cluster, GPU clusters and specialist software to support computational and data-intensive work."
+    - "Interdisciplinary projects and teaching – Learn across the Business School and Mathematical Sciences, while developing research, analysis and report-writing skills through projects with academic experts or industry partners."
+
+  careers: 
+    - "HPC / Supercomputing"
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: |
+    • A 2:1 BSc (Honours) degree or international equivalent in a field involving substantial quantitative or computational components. The ideal applicant has an undergraduate degree in Mathematics or Financial Mathematics or a closely related field.
+    Please note that standard business degrees do not provide the necessary mathematical foundation for this programme.
+    •	Applicants must demonstrate strong programming skills in at least one compiled language (preferably C or C++) and in Python. Proficiency in Python may suffice if the applicant has a strong background in their chosen specialization and engage with our free pre-sessional Scientific Software Development in C and C++ course.
+    •	We require all applicants demonstrate knowledge of undergraduate-level mathematics, covering linear algebra, calculus, and statistics.
+  programme_url: "https://www.durham.ac.uk/study/courses/computational-financial-technology-g6t309/"
+  programme_note: "The 2027/28 programme website is expected to be released in October."
+  department_url: "https://www.durham.ac.uk/departments/academic/computer-science/"
+  promo_url: "https://www.durham.ac.uk/departments/academic/science/sci-pgt/"
+
+
+
+
+- id: "msc-artificial-intelligence-for-robotics-and-computer-vision-g6t409"
+  name: "MSc Artificial Intelligence for Robotics and Computer Vision"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: "To be confirmed"
+  summary: |
+    This MSc explores how artificial intelligence enables machines to see, understand and interact with the world. Students study computer vision, deep learning, robotic planning and motion, and simultaneous localisation and mapping (SLAM), underpinned by machine learning, statistics and high-performance computing. They address challenges such as building future mobility solutions that combine autonomy with safety and reliability. Distinctively, every student receives their own robotics kit to build and maintain, gaining hands-on experience in perception, control and real-time decision-making in physical systems.
+  
+  subjects: 
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "High-Performance Computing (HPC)"
+    - "Computer Science"
+    - "Scientific Computing"
+    - "Computational Science"
+    - "Parallel Computing"
+    - "GPU Computing"
+  highlights: 
+    - "Every student gets their own robotics kit, powered by an embedded compute module, to build and maintain"
+    - "Specialist modules in Computer Vision, Robotics Planning and Motion, and Deep Learning for Computer Vision and Robotics"
+    - "Dissertation projects on cutting-edge autonomous and robotic systems, including with industry partners"
+    - "Access to GPU clusters and large-scale HPC facilities"
+    - "A strong route to PhD study in autonomous systems and machine learning"
+
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Software Engineering"
+    - "Computational Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+    - "Manufacturing, healthcare, and defence"
+  entry_requirements: |
+    • A 2:1 BSc (Honours) or international equivalent in a quantitative or computational field, ideally Computer Science, Electrical Engineering or a closely related field.
+    •	Applicants must demonstrate strong programming skills in at least one compiled language (preferably C or C++) and in Python. Proficiency in Python may suffice if the applicant has a strong background in their chosen specialization and engage with our free pre-sessional Scientific Software Development in C and C++ course. 
+    •	We require all applicants demonstrate knowledge of undergraduate-level mathematics, covering linear algebra, calculus, and statistics.
+    
+  programme_url: ""
+  programme_note: "The 2027/28 programme website is expected to be released in October."
+  department_url: "https://www.durham.ac.uk/departments/academic/computer-science/"
+  promo_url: "https://www.durham.ac.uk/departments/academic/science/sci-pgt/"
+
+
+  
+- id: "msc-artificial-intelligence-for-engineering-g6t509"
+  name: "MSc Artificial Intelligence for Engineering"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: "To be confirmed"
+  summary: |
+    This MSc combines advanced artificial intelligence with engineering applications, preparing students to design and deploy AI-driven solutions for complex engineering challenges. Core modules cover deep learning for engineering, optimisation and model predictive control, machine learning, statistics and high-performance computing. Students learn to integrate AI with physical models and engineering principles, apply deep learning to real-world systems, and develop robust software. Its strong engineering focus sets graduates apart in a competitive AI market, and projects can be completed with industry partners.
+  subjects: 
+    - "High-Performance Computing (HPC)"
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Scientific Computing"
+    - "Computational Science"
+    - "Computational Modelling"
+    - "Parallel Computing"
+    - "GPU Computing"
+    - "Research Software Engineering"
+  highlights: 
+    - "Specialist modules in Deep Learning for Engineering and in Optimisation and Model Predictive Control for AI"
+    - "Training in integrating AI with physical models and engineering principles"
+    - "Research projects with an academic expert or in cooperation with an industry partner"
+    - "Access to GPU clusters, HPC facilities, and equipment across several departments, including Engineering"
+    - "Open to both engineers moving into AI and computing graduates moving into engineering"
+
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Software Engineering"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+    - "Data Science"
+  entry_requirements: |  
+    • A 2:1 BSc (Honours) or international equivalent in a quantitative or computational field, ideally Engineering, Computer Science or another natural science with substantial quantitative content.
+    •	Applicants must demonstrate strong programming skills in at least one compiled language (preferably C or C++) and in Python. Proficiency in Python may suffice if the applicant has a strong background in their chosen specialization and engage with our free pre-sessional Scientific Software Development in C and C++ course. 
+    •	We require all applicants demonstrate knowledge of undergraduate-level mathematics, covering linear algebra, calculus, and statistics.
+  
+  programme_url: ""
+  programme_note: "The 2027/28 programme website is expected to be released in October."
+  department_url: "https://www.durham.ac.uk/departments/academic/computer-science/"
+  promo_url: "https://www.durham.ac.uk/departments/academic/science/sci-pgt/"
+
+
+
+- id: "msc-computational-environmental-and-geographic-information-systems-g6t609"
+  name: "MSc Computational Environmental and Geographic Information Systems"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: "To be confirmed"
+  summary: |   
+    This MSc combines advanced artificial intelligence with engineering applications, equipping students with the knowledge and skills to develop AI-driven solutions to complex real-world engineering challenges. Students will study deep learning, machine learning, optimisation, model predictive control, statistics and high-performance computing, while learning to integrate AI with physical models and engineering principles. Through practical projects, students will develop skills in computational analysis, software development and applying AI to real-world systems. The programme’s strong focus on engineering applications sets it apart from more general AI programmes, with opportunities to work on projects with industry partners.
+  
+  subjects: 
+    - "Artificial Intelligence"
+    - "High-Performance Computing (HPC)"
+    - "Machine Learning"
+    - "Scientific Computing"
+    - "Computational Science"
+    - "Computational Modelling"
+    - "Research Software Engineering"
+    - "Parallel Computing"
+
+
+  highlights:
+    - "A field trip to collect real geospatial data and process it on the fly, followed by a mini project"
+    - "Work with data from satellites through to handheld devices"
+    - "Delivered with the Department of Earth Sciences as part of an interdisciplinary programme"
+    - "Access to HPC clusters, GPU clusters and specialist data acquisition tools"
+    - "A strong alumni track record in the GIS and geospatial technology sectors"
+
+  careers: 
+    - "Data Science"
+    - "Scientific Computing"
+    - "Software Engineering"
+    - "Computational Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements:
+    • A 2:1 BSc (Honours) degree or international equivalent in a field involving substantial quantitative or computational components. The ideal applicant has an undergraduate degree in Earth Sciences or Mathematics or Physics or Engineering or Computer Science or another natural science including substantial quantitative components. 
+    •	Applicants must demonstrate strong programming skills in at least one compiled language (preferably C or C++) and in Python. Proficiency in Python may suffice if the applicant has a strong background in their chosen specialization and engage with our free pre-sessional Scientific Software Development in C and C++ course. 
+    •	We require all applicants demonstrate knowledge of undergraduate-level mathematics, covering linear algebra, calculus, and statistics.
+  
+  
+  programme_url: "https://www.durham.ac.uk/study/courses/computational-environmental-and-geographic-information-systems-g6t609/"
+  department_url: "https://www.durham.ac.uk/departments/academic/computer-science/"
+  promo_url: "https://www.durham.ac.uk/departments/academic/science/sci-pgt/"
+
+
+- id: "msc-artificial-intelligence-infrastructure-platforms-g6t709"
+  name: "MSc Artificial Intelligence Infrastructure Platforms"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: "To be confirmed"
+  summary: |
+    This MSc equips students with the knowledge and technical skills to design, operate and optimise the compute platforms powering today’s most advanced AI and simulation workloads. Students will study hardware architecture, software stacks, networking, system monitoring, performance optimisation, user management and data centre security and operations, alongside machine learning and high-performance computing. Through hands-on work in provisioning and monitoring, students tackle challenges including energy efficiency, code performance and system security. The programme’s rare combination of AI, high-performance computing and systems expertise prepares graduates to build and scale the infrastructure behind next-generation AI and supercomputing.
+  subjects: 
+    - "High-Performance Computing (HPC)"
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Scientific Computing"
+    - "Parallel Computing"
+    - "GPU Computing"
+    - "Research Software Engineering"
+  highlights:
+    - "Hands-on experience provisioning, monitoring and managing HPC and AI systems"
+    - "A specialist module on systems monitoring, data centre security and user management"
+    - "Direct exposure to the infrastructure behind AI data centres and supercomputing facilities"
+    - "Access to GPU clusters, heterogeneous architectures and performance analysis tools"
+    - "Projects in cooperation with industry partners, plus a route to PhD research"
+
+  careers: 
+    - "HPC / Supercomputing"
+    - "Artificial Intelligence / Machine Learning"
+    - "Research Software Engineering"
+    - "Software Engineering"
+    - "Scientific Computing"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: |
+    • A 2:1 BSc (Honours) degree or international equivalent in a field involving substantial quantitative or computational components. The ideal applicant has an undergraduate degree in Computer Science or a closely related field with a substantial computer science component. 
+    •	Applicants must demonstrate strong programming skills in at least one compiled language (preferably C or C++) and in Python. Proficiency in Python may suffice if the applicant has a strong background in their chosen specialization and engage with our free pre-sessional Scientific Software Development in C and C++ course. 
+    •	We require all applicants demonstrate knowledge of undergraduate-level mathematics, covering linear algebra, calculus, and statistics.
+      
+  programme_url: "https://www.durham.ac.uk/study/courses/artificial-intelligence-infrastructure-platforms-g6t709/"
+  department_url: "https://www.durham.ac.uk/departments/academic/computer-science/"
+  promo_url: "https://www.durham.ac.uk/departments/academic/science/sci-pgt/"
+
+

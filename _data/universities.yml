@@ -1,0 +1,100 @@
+# One entry per university. Marker position on the map is map.top / map.left (% of the map).
+# Programmes live in _data/courses/<id>.yml (generated from the spreadsheet).
+
+durham:
+  name: "Durham University"
+  location: "Durham, England"
+  brand_color: "#68246D"
+  website: "https://www.durham.ac.uk/"
+  logo: "https://raw.githubusercontent.com/mzhc13/uk-universities-map/b648879f1d18b51256e1bf71d796a68d8d534d81/assets/images/durham.svg"
+  city_image: "https://images.pexels.com/photos/23884118/pexels-photo-23884118.jpeg"
+  russell: true
+  description: "Research-led postgraduate study in computer science, scientific computing and AI, with access to Durham's own computing cluster."
+  short: "Durham"
+  label: "right"
+  map: { top: 48, left: 61 }
+
+
+ucl:
+  name: "University College London (UCL)"
+  location: "London, England"
+  brand_color: "#392250"
+  website: "https://www.ucl.ac.uk/"
+  logo: "https://www.ucl.ac.uk/brand-and-experience/sites/brand_and_experience/files/styles/content_cards_mobile/public/2025-11/Web%20Cards_Logo.png.jpg?itok=EnXdgDmf"
+  city_image: "https://images.pexels.com/photos/34686159/pexels-photo-34686159.jpeg"
+  russell: true
+  description: "Join one of the world's leading multidisciplinary universities and study in the heart of London. UCL's MSc programmes in computer science, AI and data science offer research-led teaching, access to a global community, and opportunities to work on the technologies shaping the future."
+  short: "UCL"
+  label: "left"
+  map: { top: 79.5, left: 64 }
+
+queen:
+  name: "Queen Mary University of London"
+  location: "London, England"
+  brand_color: "#392250"
+  website: "https://www.qmul.ac.uk/"
+  logo: "https://www.qmul.ac.uk/media/ow-assets/assets/icons/Queen-Mary_Est_1785_RGB_White_Dark-Yellow-3.png"
+  city_image: "https://images.pexels.com/photos/34686159/pexels-photo-34686159.jpeg"
+  russell: true
+  description: ""
+  short: "Queen Mary"
+  label: "bottom"
+  map: { top: 79.5, left: 70 }
+
+imperial:
+  name: "Imperial College London"
+  location: "London, England"
+  brand_color: "#0000CD"
+  website: "https://www.imperial.ac.uk/"
+  logo: "https://github.com/mzhc13/uk-universities-map/blob/main/assets/images/imperial.jpg?raw=true"
+  city_image: "https://images.pexels.com/photos/29373124/pexels-photo-29373124.jpeg"
+  russell: true
+  description: "Imperial's computing programmes combine world-leading research with advanced technical training. Students work alongside experts in artificial intelligence, data science, software engineering and emerging digital technologies."
+  short: "Imperial"
+  label: "right"
+  map: { top: 79.5, left: 76 }
+
+manchester:
+  name: "The University of Manchester"
+  location: "Manchester, England"
+  brand_color: "#660099"
+  website: "https://www.manchester.ac.uk/"
+  logo: "https://github.com/mzhc13/uk-universities-map/blob/main/assets/images/manchester.png?raw=true"
+  city_image: "https://images.pexels.com/photos/34568220/pexels-photo-34568220.jpeg"
+  russell: true
+  description: "Study at one of the UK's largest research universities, with expertise spanning artificial intelligence, data science, software engineering and high-performance computing. Manchester combines academic excellence with strong industry connections."
+  short: "Manchester"
+  label: "left"
+  map: { top: 60, left: 57 }
+
+leeds:
+  name: "University of Leeds"
+  location: "Leeds, England"
+  brand_color: "#000000"
+  website: "https://www.leeds.ac.uk/"
+  logo: "https://github.com/mzhc13/uk-universities-map/blob/main/assets/images/leeds.png?raw=true"
+  city_image: "https://images.pexels.com/photos/8070163/pexels-photo-8070163.jpeg"
+  russell: true
+  description: "Explore advanced topics in computer science through research-led teaching and practical projects. Leeds provides a vibrant postgraduate environment with expertise in artificial intelligence, data science and digital innovation."
+  short: "Leeds"
+  label: "right"
+  map: { top: 55, left: 60  }
+
+
+
+
+
+warwick:
+  name: "University of Warwick"
+  location: "Coventry, England"
+  brand_color: "#5B2C6F"
+  website: "https://warwick.ac.uk/"
+  logo: "https://github.com/mzhc13/uk-universities-map/blob/main/assets/images/warwick.png?raw=true"
+  city_image: "https://images.pexels.com/photos/31018425/pexels-photo-31018425.jpeg"
+  russell: true
+  description: "Postgraduate programmes in predictive modelling and scientific computing, plus the HetSys doctoral training centre."
+  short: "Warwick"
+  label: "right"
+  map: { top: 70, left: 64}
+
+

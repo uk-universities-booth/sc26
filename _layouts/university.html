@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{% include booth-head.html %}
+{% assign u = site.data.universities[page.uni] %}
+{% assign courses = site.data.courses[page.uni] | default: site.data[page.uni] %}
+<div class="upage" style="--c:{{ u.brand_color }}">
+<header class="hero"{% if u.city_image != blank %} style="background-image:url('{{ u.city_image }}')"{% endif %}>
+<a class="back" href="{{ '/' | relative_url }}">Back to the map</a>
+<div class="id">
+{% if u.logo != blank %}<img class="logo" src="{{ u.logo }}" alt="{{ u.name }} logo">{% endif %}
+<div><h1>{{ u.name }}</h1><p>{{ u.location }}{% if u.russell %}<span class="badge">Russell Group</span>{% endif %}</p></div>
+</div>
+<p class="desc">{{ u.description }}</p>
+<p><a class="bt w" href="{{ u.website }}" target="_blank" rel="noopener">Visit university website</a></p>
+</header>
+<div class="lay{% if courses.size < 2 %} one{% endif %}">
+{% if courses.size > 1 %}<nav class="side" aria-label="Programmes"><h2>{{ courses.size }} programmes</h2><ol>{% for c in courses %}<li><a href="#{{ c.id }}">{{ c.name }}</a></li>{% endfor %}</ol></nav>{% endif %}
+<div class="main">
+{% if courses.size > 0 %}{% for c in courses %}
+<article class="prog" id="{{ c.id }}">
+<h2>{{ c.name }}</h2>
+<div class="chips"><span>{{ c.qualification }}</span>{% for m in c.study_mode %}<span>{{ m }}</span>{% endfor %}{% if c.delivery != "Other" %}<span>{{ c.delivery }}</span>{% endif %}</div>
+{% if c.summary != blank %}<div class="sum">{{ c.summary | markdownify }}</div>{% endif %}
+<dl class="facts">
+{% if c.duration != blank %}<div><dt>Duration</dt><dd>{{ c.duration }}</dd></div>{% endif %}
+{% if c.dates != blank %}<div><dt>Starts</dt><dd>{{ c.dates }}</dd></div>{% endif %}
+{% if c.deadline != blank %}<div><dt>Apply by</dt><dd>{{ c.deadline }}</dd></div>{% endif %}
+{% if c.delivery_note != blank %}<div class="wide"><dt>Delivery</dt><dd>{{ c.delivery_note }}</dd></div>{% endif %}
+{% if c.entry_requirements != blank %}<div class="wide"><dt>Entry requirements</dt><dd>{{ c.entry_requirements }}</dd></div>{% endif %}
+</dl>
+{% if c.highlights.size > 0 %}<h3>Highlights</h3><ul class="hl">{% for x in c.highlights %}<li>{{ x }}</li>{% endfor %}</ul>{% endif %}
+{% if c.subjects.size > 0 %}<h3>Subject areas</h3><div class="chips">{% for x in c.subjects %}<span>{{ x }}</span>{% endfor %}</div>{% endif %}
+{% if c.careers.size > 0 %}<h3>Career pathways</h3><div class="chips">{% for x in c.careers %}<span>{{ x }}</span>{% endfor %}</div>{% endif %}
+{% if c.notes != blank %}<p class="note">{{ c.notes }}</p>{% endif %}
+{% if c.programme_note != blank %}<p class="note">{{ c.programme_note }}</p>{% endif %}
+<p class="links">{% if c.programme_url != blank %}<a class="bt" href="{{ c.programme_url }}" target="_blank" rel="noopener">View programme page</a>{% endif %}{% if c.department_url != blank %}<a class="bt o" href="{{ c.department_url }}" target="_blank" rel="noopener">Department</a>{% endif %}{% if c.promo_url != blank %}<a class="bt o" href="{{ c.promo_url }}" target="_blank" rel="noopener">More information</a>{% endif %}{% if c.video_url != blank %}<a class="bt o" href="{{ c.video_url }}" target="_blank" rel="noopener">Watch video</a>{% endif %}</p>
+</article>
+{% endfor %}{% else %}
+<p class="soon">Programme details for {{ u.name }} are coming soon. In the meantime, see what they offer on <a href="{{ u.website }}" target="_blank" rel="noopener">their website</a>.</p>
+{% endif %}
+</div>
+</div>
+</div>

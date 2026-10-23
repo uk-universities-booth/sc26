@@ -1,0 +1,992 @@
+
+- id: "msc-business-analytics-ai"
+  name: "MSc Business Analytics & AI"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "August 2027 to August 2028"
+  deadline: "29 September 2026"
+  summary: "With the emergence of technologies such as AI and machine learning, the ability to analyse and interpret complex data sets is crucial for future business leaders. Our MSc in Business Analytics & AI will equip you with advanced computational, machine learning, and AI capabilities to succeed in an increasingly data-driven world. You will develop expertise in predictive, prescriptive and AI-powered decision models while applying these tools to real-world business challenges through workshops, placement opportunities and our optional extended term. "
+  subjects: 
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Computational Modelling"
+    - "Maths & Statistics"
+  highlights: 
+    - "World-class faculty"
+    - "High career impact"
+    - "Consulting Project or Work Placement"
+    - "Global Immersion (one-week trip)"
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "PhD / Further Study"
+    - "Academia / Research"
+    - "Industry"
+    - "Research Software Engineering"
+  entry_requirements: "You should have a First or Upper Second Class Honours undergraduate degree from a recognised university or the international equivalent in a quantitative discipline such as:  Computer Science, Engineering, Mathematics, Statistics Physics, a quantitative economics degree."
+  programme_url: "https://www.imperial.ac.uk/business-school/masters/business-analytics/"
+  department_url: "https://www.imperial.ac.uk/business-school/"
+
+
+
+- id: "msc-ai-economics-policy"
+  name: "MSc AI, Economics & Policy"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027 to September 2028"
+  deadline: "29 September 2026"
+  summary: "As AI reshapes industries, disrupts markets and challenges the limits of existing regulation, the ability to operate confidently at this intersection is crucial for future business leaders. Our MSc in AI, Economics & Policy is delivered jointly by Imperial Business School and the Department of Computing. Our programme will equip you with a unique cross-sector skill set to navigate complex AI systems, understand AI’s impact on economic growth and competition and address the challenges of responsible AI governance and public policy. Develop your expertise across all three pillars, applying them to real-world business challenges through applied projects, guest lectures from industry leaders and regulators, and an individual project or internship."
+  subjects: 
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Computer Science"
+    - "Computational Modelling"
+    - "Scientific Computing"
+    - "GPU Computing"
+    - "High-Performance Computing (HPC)"
+  highlights: 
+    - "Independent AI project that synthesises your learning across the programme"
+    - "Wide range of electives"
+    - "Access to HPC facilities"
+    - "Dedicated careers support"
+  careers: 
+    - "Policy & Governance"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+    - "Artificial Intelligence / Machine Learning"
+  entry_requirements:
+    "You should have a First or Upper Second Class Honours undergraduate degree from a recognised university or the international equivalent in a relevant STEMB discipline such as: Quantitative economics, Mathematical finance, Computing, Physics, Engineering, Related disciplines: Law graduates may also be considered if they can demonstrate technical skills and university-level mathematical study in the relevant areas of mathematics."
+  programme_url: "https://www.imperial.ac.uk/business-school/masters/ai-economics-policy"
+  department_url: "https://www.imperial.ac.uk/business-school"
+
+
+
+- id: "cancer-biology-cancer-informatics"
+  name: "Cancer Biology (Cancer Informatics)"
+  qualification: "MRes"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "October 2027 to October 2028"
+  deadline: "6 January 2027"
+  summary: |
+    Receive the broad, interdisciplinary training needed to launch a research career in the fight against cancer with this Master's course. 
+    You’ll receive a crash course in coding, transforming you from a life scientist to a confident informatician - or deepen your computational skills in a biological context.
+    You'll explore cutting-edge developments in the field, including the use of AI and machine intelligence, and engage with some of the most advanced analytical tools in modern cancer research. 
+    During your studies, you'll analyse the cellular and molecular basis of cancer biology and be introduced to the clinical and pathological aspects of carcinogenesis.  
+    A series of workshops will help you develop key transferable skills for a research career, such as the oral presentation of scientific data and grant writing. 
+    You'll also gain insights into the excellent project opportunities at Imperial and partner institutions including the Crick Institute and Institute of Cancer Research. 
+    Immerse yourself in a multidisciplinary research environment on a 10-month focused research project in world leading labs. 
+  
+  subjects: 
+    - "Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Computational Modelling"
+  highlights: 
+    - "Innovative 10-month research project with external collaboration available."
+    - "Opportunities for PhD progression"
+    - "Access to HPC facilities"
+  careers: 
+    - "HPC / Supercomputing"
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "2:1 in an appropriate subject."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/cancer-informatics/"
+  department_url: "https://www.imperial.ac.uk/department-surgery-cancer/"
+
+
+- id: "cancer-biology-cancer-innovation"
+  name: "Cancer Biology (Cancer Innovation)"
+  qualification: "MRes"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "October 2027 to October 2028"
+  deadline: "6 January 2027"
+  summary: |
+    Develop skills across disciplines to further your proficiency of experimental and computational research, and push forward research in cancer biology.
+    In this Cancer Innovation stream, you will focus on the development of novel, innovative approaches to biological and medical problems in cancer. Blended learning with demonstrations and workshops will train you in the translation of biotechnology platforms, from concept to realisation and onward to application in the clinical/commercial environment.
+    You will learn the skills to critically analyse current literature and performance data. Beyond this, you’ll be trained to communicate technological concepts to both scientific and commercial audiences, as well as to patients themselves.
+    This research-oriented course offers students the opportunity to conduct an innovative 10-month research project. These can be wet-lab/dry lab projects or original research and analysis.
+    You will be trained in the cellular and molecular basis of cancer biology, as well as receiving an introduction to the clinical and pathological aspects of carcinogenesis and treatment. 
+    On completing this course, you will be ready to continue a career in ground-breaking research or pursue varied career paths where an advanced knowledge and understanding of cancer research is highly sought after.
+  
+  
+  subjects: 
+    - "High-Performance Computing (HPC)"
+    - "Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Computational Science"
+    - "Computational Modelling"
+  highlights: 
+    - "Access to HPC facilities"
+    - "Innovative 10-month research project"
+    - "Strong links to relevant industry and research institutes"
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "2:1 in Science, Engineering, Biomedical Science or Medicine."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/cancer-innovation/"
+  department_url: "https://www.imperial.ac.uk/department-surgery-cancer/"
+
+
+
+- id: "msc-computational-biomedicine-computational-brain-sciences-online"
+  name: "MSc Computational Biomedicine (Computational Brain Sciences) (Online)"
+  qualification: "MSc"
+  study_mode: 
+    - "Part-time"
+  delivery: "Online"
+  duration: "28 months"
+  dates: "October 2027 to February 2030"
+  deadline: "6 January 2027"
+  summary: |
+    Study remotely at one of the top STEM universities in the world, using innovative virtual learning environments and VR technologies.
+    You will take core modules in computational biology related data science and biostatistics and then complete two modules in the computational brain science stream, together with a six-month computational research project that provides research experience in computational biomedicine. This course also has strong components in applied artificial intelligence (machine and deep learning) and biomedical data science.
+    This newly developed curriculum brings together training in the latest advances in computational brain sciences and is delivered flexibly to suit all learners. 
+    Alongside accessible and engaging lecture and training material, this course also uses novel synchronous sessions delivered via online streaming and virtual reality (VR) technologies. This will promote interactions in virtual spaces between lecturers and students and provides unique learning opportunities.
+    This course will develop your expertise in programming, biostatistics, AI and data science, and provide specialist skills in computational brain science to enhance your research portfolio and employability prospects.
+  subjects: 
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Computational Science"
+  highlights: 
+    - "Access to HPC facilities"
+    - "Opportunities for PhD progression"
+    - "Diverse teaching and learning methods"
+  careers: 
+    - "Data Science"
+    - "Scientific Computing"
+    - "Computational Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "2:1 in a relevant Biological or Biomedical Science discipline or in Clinical Medicine."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/computational-biomedicine-brain-sciences/"
+  department_url: "https://www.imperial.ac.uk/brain-sciences/"
+
+
+- id: "health-data-analytics-and-machine-learning"
+  name: "Health Data Analytics and Machine Learning"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "October 2027 to October 2028"
+  deadline: "6 January 2027"
+  summary: |
+    Broaden your expertise in analysing health data in this Master's course.
+    You will gain expertise in developing, applying and interpreting results from cutting-edge statistical, machine learning, and artificial intelligence approaches for analysing and integrating complex sets of data that are emerging in the health field. 
+    The course is delivered by international experts. They leverage their extensive experience to design materials which better equip you to handle the complexity of real-world health data. Lectures provide rigorous and accessible theoretical background to the advanced methodology. Each lecture is paired with a hands-on session which applies the theoretic concepts to real-world data. This strong technical component will prepare you for a career in health data sciences. 
+    You will apply the cutting-edge skills you gain to unexplored scientific questions with potential real-world impact. Through closely supervised individual and group projects, you will learn how to perform rigorous research to international publication standard. You will be integrated into a world-leading academic or industrial research team for your final project. This capstone project will give you demonstrable experience applying the comprehensive skillset from the course in a role as a data expert.
+    
+  subjects: 
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "High-Performance Computing (HPC)"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Computational Modelling"
+    - "Research Software Engineering"
+  highlights: 
+    - "delivered by international experts"
+    - "potential real-world impact"
+    - "extensive individual research project (4 months full-time)"
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "Computational Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "2:1 in Mathematics, Statistics, Epidemiology or Biology, or a Medical degree."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/health-data-analytics/"
+  department_url: "https://www.imperial.ac.uk/medicine/departments/school-public-health/"
+  promo_url: "https://www.imperial.ac.uk/events/213146/postgraduate-study-msc-in-health-data-analytics-and-machine-learning-webinar-12/"
+
+
+
+- id: "biomedical-research-data-science"
+  name: "Biomedical Research (Data Science)"
+  qualification: "MRes"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "October 2027 to October 2028"
+  deadline: "6 January 2027"
+  summary: |
+    Receive interdisciplinary training in AI, machine learning, deep learning, multivariate statistics, and chemometrics methods to analyse 'big data' from biomedical studies on this Master's course.
+    Two research projects are major components of this course, and through these you will build your research experience in the development and application of these methods to real-world biomedical data.
+    These will help you develop communication, presentation and grant-writing skills, and become familiar with critically evaluating cutting edge research papers.
+    On this stream of the MRes in Biomedical Research, you'll learn to handle large-scale data from a variety of sources such as genomics, transcriptomics, proteomics, metabolomics, as well as text data, medical imaging, clinical data, and electronic health records.
+    
+  subjects: 
+    - "Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Computational Modelling"
+    - "Research Software Engineering"
+  highlights: 
+    - "Access to HPC facilities"
+    - "Grant Writing Experience"
+    - "Wide range of research projects available"
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "2:1 in an appropriate subject."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/data-science/"
+  department_url: "https://www.imperial.ac.uk/metabolism-digestion-reproduction/"
+  promo_url: "https://www.imperial.ac.uk/events/212136/postgraduate-study-mres-biomedical-research-all-streams-virtual-open-event-nov26/"
+
+
+- id: "msc-computational-biomedicine-computational-genomics-online"
+  name: "MSc Computational Biomedicine (Computational Genomics) (Online)"
+  qualification: "MSc"
+  study_mode: 
+    - "Part-time"
+  delivery: "Online"
+  duration: "28 months"
+  dates: "October 2027 to February 2030"
+  deadline: "6 January 2027"
+  summary: |
+    Study remotely at one of the top STEM universities in the world, using innovative virtual learning environments and VR technologies.
+    You will take core modules in computational biology related data science and biostatistics and then complete two modules in the computational brain science stream, together with a six-month computational research project that provides research experience in computational biomedicine. This course also has strong components in applied artificial intelligence (machine and deep learning) and biomedical data science.
+    This newly developed curriculum brings together training in the latest advances in computational brain sciences and is delivered flexibly to suit all learners. 
+    Alongside accessible and engaging lecture and training material, this course also uses novel synchronous sessions delivered via online streaming and virtual reality (VR) technologies. This will promote interactions in virtual spaces between lecturers and students and provides unique learning opportunities.
+    This course will develop your expertise in programming, biostatistics, AI and data science, and provide specialist skills in computational brain science to enhance your research portfolio and employability prospects.
+  subjects: []
+  highlights: 
+    - "Innovative virtual learning environments"
+    - "Delivered flexibly to suit all learners"
+    - "One of the top STEM universities in the world"
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "2:1 in a relevant Biological or Biomedical Science discipline or in Clinical Medicine."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/computational-biomedicine-genomics/"
+  department_url: "https://www.imperial.ac.uk/medicine/departments/metabolism-digestion-reproduction/"
+  promo_url: "https://www.imperial.ac.uk/events/213059/postgraduate-study-msc-computational-biomedicine-both-streams-virtual-open-event-nov26/"
+
+
+
+- id: "ecology-evolution-and-conservation-mres"
+  name: "Ecology, Evolution and Conservation MRes"
+  qualification: "MRes"
+  study_mode: 
+    - "Full-time"
+    - "Part-time"
+  delivery: "On campus"
+  duration: "1 year, 2 years"
+  dates: "October 2027 to October 2028, or October 2027 to October 2029"
+  deadline: "6 January 2027"
+  summary: |
+    Gain broad, interdisciplinary training in ecology, evolution and conservation on this Master's programme.
+    Available full-time or part-time, the course is taught by internationally recognised researchers who will give you first-hand experience of conducting high-quality scientific research.
+    You'll gain a strong foundation in R, statistics, and the analysis of ecological and evolutionary data, alongside practical fieldwork in the temperate forests and grasslands of Imperial's Silwood Park Campus. 
+    An independent research project allows you to apply your skills to a real scientific question. Projects can address fundamental or applied topics, including practical conservation challenges, and may be carried out with our own researchers or with external collaborators including Zoological Society of London (ZSL). 
+    By combining rigorous scientific training with interdisciplinary perspectives and international collaborations, you'll graduate with the skills to tackle some of the world's most pressing environmental challenges.
+
+  subjects: 
+    - "Data Science"
+    - "Scientific Computing"
+    - "Computational Science"
+  highlights: 
+    - "Experience Planning Research Projects"
+    - "Field Programme"
+    - "Opportunity to work with national and international collaborators."
+  careers: 
+    - "Data Science"
+    - "PhD / Further Study"
+    - "Academia / Research"
+    - "Industry"
+  entry_requirements: "2:1 in a Science subject."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/ecology-evolution-conservation-research/"
+  department_url: "https://www.imperial.ac.uk/natural-sciences/departments/life-sciences/"
+  promo_url: "https://www.imperial.ac.uk/silwood-park/"
+
+
+- id: "msc-statistics-data-science-and-machine-learning"
+  name: "MSc Statistics (Data Science and Machine Learning)"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "October 2027 - October 2028"
+  deadline: "6 January 2027"
+  summary: |
+    Develop your appreciation of data science techniques and their application in statistics on this Master's course.
+    You'll explore a wide range of statistical methods used in data science and machine learning and delve into current developments in the field.
+    This course considers how these methods are used in a variety of areas. These include scientific, governmental, industrial and commercial settings.
+    You'll also carry out an independent investigation in an area of data science using research techniques acquired from the course.
+    
+  
+  subjects: 
+    - "Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+  highlights: 
+    - "Access to HPC facilities"
+    - "Wide range of Optional modules"
+    - "Extensive research project full-time between January and September"
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "PhD / Further Study"
+    - "Computational Science"
+    - "Academia / Research"
+    - "Industry"
+    - "Software Engineering"
+  entry_requirements: "2:1 in Statistics, Mathematics, Engineering, Physics or Computer Science."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/statistics-data-science/"
+  department_url: "https://www.imperial.ac.uk/natural-sciences/departments/mathematics/"
+
+
+
+- id: "applied-machine-learning"
+  name: "Applied Machine Learning"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "October 2027 - October 2028"
+  deadline: "6 Jan 2027"
+  summary: |
+    Explore the processes used to develop real-world systems that involve signals, sensors and hardware, such as robots or mobile phones.
+    Through lectures, tutorials and labs, you'll delve into the theory, practical knowledge and skills that underpin machine learning.
+    This course focuses on hands-on experience by designing and implementing machine learning on hardware devices. Working in a small group, you will research, design and build a novel hardware device for making intelligent decisions based on signals from various sensors. 
+    Specialist modules will give you the opportunity to improve your understanding of specific machine learning applications, including AI, computer vision and signal processing.
+    You'll also complete an individual research project, which encourages you to develop your own ideas towards a machine learning approach.
+    A wide range of industries value the skills you have the opportunity to gain on this course including telecommunications, energy, healthcare and logistics. You also have the opportunity to go into further research
+    
+  
+  
+  subjects: 
+    - "High-Performance Computing (HPC)"
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Data Science"
+    - "Computational Modelling"
+    - "Research Software Engineering"
+  highlights: 
+    - "Accredited by the Institution of Engineering and Technology (IET)"
+    - "Access to HPC facilities"
+    - "Broad range of optional modules"
+    - "Individual research project"
+  careers: 
+    - "HPC / Supercomputing"
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "Software Engineering"
+    - "Computational Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "First class Honours in Electrical/Electronic Engineering or a related subject with a substantial Electrical/Electronic Engineering component."  
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/applied-machine-learning/"
+  department_url: "https://www.imperial.ac.uk/engineering/departments/electrical-engineering/"
+  video_url: "https://www.youtube.com/watch?v=sRUQP3Ye4ok"
+
+
+
+
+- id: "biomedical-engineering-computational-bioengineering"
+  name: "Biomedical Engineering (Computational Bioengineering)"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "October 2027 - October 2028"
+  deadline: "6 January 2027"
+  summary: |
+    Learn how to select and apply mathematical models and techniques to biological data on this Master's course.
+    You'll discover how computational and theoretical modelling is essential to our understanding of how organisms function and how diseases progress.
+    You'll also build your familiarity with machine learning and its applications in biomedical engineering research.
+    Through a series of modules and an extended research project, you'll explore how developments in computational capabilities can offer us more advanced insights into a range of biomedical engineering problems.
+    Regular seminars and workshops with guest speakers from different bioengineering specialisms will also provide you with opportunities to broaden your understanding of current research in the field.
+    Teaching is shared across our South Kensington and White City campuses. This includes the Sir Michael Uren Biomedical Engineering Hub, our new centre of MedTech innovation.
+    
+  
+  subjects: 
+    - "Data Science"
+    - "Machine Learning"
+    - "Scientific Computing"
+    - "Computational Science"
+  highlights: 
+    - "Professional accreditation by 5 Institutions."
+    - "Develop important project management skills"
+    - "Advance your scientific writing and presentation skills."
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Research Software Engineering"
+    - "Software Engineering"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "2:1 in an Engineering, Physical Sciences or Mathematical subject."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/biomedical-engineering-computational/"
+  department_url: "https://www.imperial.ac.uk/engineering/departments/bioengineering/"
+  video_url: "https://www.youtube.com/watch?v=50mQEfmtDZM"
+
+
+
+- id: "environmental-data-science-and-machine-learning"
+  name: "Environmental Data Science and Machine Learning"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "October 2027 - October 2028"
+  deadline: "6 January 2027"
+  summary: ""
+  subjects: []
+  highlights: 
+    - "Access to HPC facilities"
+    - "Core modules on deep learning"
+    - "Research project contributing to an active research area"
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "2:1 in Engineering or a Science-based subject."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/environmental-data-science-machine-learning/"
+  department_url: "https://www.imperial.ac.uk/engineering/departments/earth-science/"
+  video_url: "https://www.youtube.com/watch?v=-Clhqqh26DY"
+
+
+
+- id: "renewable-energy-with-ai-and-data-science-geology-and-geophysics"
+  name: "Renewable Energy with AI and Data Science: Geology and Geophysics"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "October 2027"
+  deadline: "6 January 2027"
+  summary: |
+    You will develop an understanding of the geological, geotechnical and geophysical knowledge and data essential to develop ground models for renewables projects.
+    You’ll gain exposure to geophysical surveying equipment in a fieldtrip, and get hands-on experience with real-world data. You’ll also have the opportunity to work on real-world problems through an independent project in an area of your choice.
+    Exposure to industry will be provided through guest lectures, seminars and the option to conduct your independent project in an industry placement.
+    This course is suitable for those from a geoscience, physical science or engineering background looking to advance their computer science skills applied to renewable energy problems. This also includes those in industry looking to transition to the renewables sector. 
+    
+  
+  
+  subjects: 
+    - "Artificial Intelligence"
+    - "Data Science"
+    - "Machine Learning"
+    - "High-Performance Computing (HPC)"
+    - "Scientific Computing"
+    - "Computational Modelling"
+    - "Research Software Engineering"
+  highlights: 
+    - "Access to HPC facilities"
+    - "This course is part of the Ada Lovelace Academy"
+    - "Conduct an independent analysis of a technical problem relevant to the renewables sector."
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Research Software Engineering"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "2:1 in any geological or physical science or engineering subject."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/renewable-energy/"
+  department_url: "https://www.imperial.ac.uk/engineering/departments/earth-science/"
+  video_url: "https://www.youtube.com/watch?v=-Clhqqh26DY"
+
+
+
+- id: "artificial-intelligence-applications-and-innovation"
+  name: "Artificial Intelligence Applications and Innovation"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "October 2027 - October 2028"
+  deadline: "6 January 2027"
+  summary: |
+    Enhance your understanding of AI fundamentals, cultivate hands-on skills in AI technologies, delve into diverse AI applications and AI-driven business innovation.
+    Whether you have a background in engineering, mathematics, computer science, business or a deep interest in applying AI in industry, this course will help develop your knowledge and skills to revolutionise how we work, live, and innovate using AI, such as for industries in healthcare, finance, and robotics.
+    You will study the core of AI and machine learning, and explore the intricate world of deep learning. You will also work on a Group Project on AI Ventures and Ethics, where you will not only develop AI technologies but also craft business strategies.
+    You will develop expertise and skills that are needed to drive AI innovation, create AI solutions, deploy AI applications in real-world, and pursue PhD research.
+  
+  subjects: 
+    - "High-Performance Computing (HPC)"
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Computational Modelling"
+    - "Computational Science"
+    - "Computer Science"
+    - "Research Software Engineering"
+    - "Parallel Computing"
+    - "GPU Computing"
+  highlights: 
+    - "GPU/parallel computing opportunities"
+    - "Access to HPC facilities"
+    - "Co-located collaborative environment for research, education, and entrepreneurship"
+  careers: []
+  entry_requirements: "First-Class Honours in Mathematics, Physics, Engineering, Mathematical Economics, Business, Computing, or other degree with substantial STEM content. "
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/applications-innovation/"
+  department_url: "https://ix.imperial.ac.uk/"
+  video_url: "https://www.youtube.com/watch?v=lBh94Q9Hing"
+
+
+
+
+- id: "artificial-intelligence"
+  name: "Artificial Intelligence"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "October 2027 - October 2028"
+  deadline: "6 January 2027"
+  summary: |
+    Aimed at mathematically-minded STEM graduates, this Master's degree delivers intensive training in programming and the fundamentals of artificial intelligence (AI).
+    As well as learning the technical skills required for this growing area of computing science, you'll have the chance to explore realistic applications through group and individual projects.
+    This course offers you the chance to forge links with major technology companies and work within industry-initiated projects.
+
+  subjects: []
+  highlights: 
+    - "Broad range of optional modules."
+    - "Access to HPC facilities"
+    - "Opportunity to develop a significant AI application."
+    - "It is possible to conduct the individual project as an internship with a company"
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Research Software Engineering"
+    - "Computational Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "A First-Class degree in Mathematics, Physics, Engineering, Economics, or other subject with substantial Mathematics content."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/artificial-intelligence/"
+  department_url: "https://www.imperial.ac.uk/computing/"
+  video_url: "https://www.youtube.com/watch?v=0us6OMQaxWo"
+
+
+
+- id: "artificial-intelligence-and-machine-learning"
+  name: "Artificial Intelligence and Machine Learning"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "October 2027 - October 2028"
+  deadline: "6 January 2027"
+  summary: |
+    Gain research and innovation skills for developing novel artificial intelligence (AI) on this Master's course.
+    You'll advance your knowledge of AI and machine learning through lectures, group work and laboratory exercises and put your ideas into practice on a research project.
+    The individual, supervised project gives you an opportunity to explore a research area of your interest in-depth and learn to use different AI and machine learning (ML) approaches.
+    Through this, you'll develop high-level analytical skills and learn to design and lead projects.
+    You'll also advance your programming skills in key areas including Python and complex algorithms, and apply these skills to a research and development (R&D) proposal for a real-world technology business case.
+    
+  
+  subjects: 
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "Computer Science"
+    - "Parallel Computing"
+  highlights: 
+    - "Access to HPC facilities"
+    - "World-class institution"
+    - "Supervised by AI experts from the university and industry."
+  careers: 
+    - "HPC / Supercomputing"
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "Software Engineering"
+    - "Computational Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "First-Class Honours in a relevant scientific or technical subject, such as Computing, Engineering, Mathematics, Statistics or Physics."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/artificial-intelligence-machine-learning/"
+  department_url: "https://www.imperial.ac.uk/computing/"
+
+
+- id: "msc-computing"
+  name: "MSc Computing"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "Hybrid"
+  duration: "1 year"
+  dates: "October 2027 - June 2028"
+  deadline: "Round 2 closes on Wednesday 6 January 2027"
+  summary: |
+    Undertake intensive training in computer science and acquire the core computing skills needed for a career in the computer industry.
+    Suitable for graduates of disciplines other than computing, this one-year programme is tailored towards those looking to add computing qualifications to their portfolio. It's also suitable if you're looking to prepare for further PhD study.
+    This course will help you acquire practical skills in basic and specialised topics in computing: programming, software engineering, algorithms, AI, and more.
+    A major focus of your studies will be developing a large software project. You'll also apply your course knowledge on an extended individual project. 
+      
+  
+  subjects: 
+    - "Computer Science"
+    - "Artificial Intelligence"
+    - "Computational Science"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "GPU Computing"
+    - "Parallel Computing"
+    - "Machine Learning"
+    - "High-Performance Computing (HPC)"
+  highlights: 
+    - "Access to HPC facilities"
+    - "GPU/parallel computing opportunities"
+    - "Research projects"
+  careers: 
+    - "HPC / Supercomputing"
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "Software Engineering"
+    - "Computational Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "First class degree in a subject without substantial Computing content"
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing/"
+  department_url: "https://www.imperial.ac.uk/engineering/departments/computing/"
+
+
+
+
+- id: "msc-computing-visual-computing-and-robotics"
+  name: "MSc Computing (Visual Computing and Robotics)"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "Hybrid"
+  duration: "1 year"
+  dates: "October 2027 - June 2028"
+  deadline: "Round 2 closes on Wednesday 6 January 2027"
+  summary: |
+    Specialise in the study of vision, graphics, intelligent behaviour and biomedical image computing on this Master's course.
+    Examine emerging trends in computing and how these techniques can be adapted in industrial applications.
+    You'll also enhance your management and research skills on an individual project exploring an area of visual computing or robotics.
+  subjects: 
+    - "High-Performance Computing (HPC)"
+    - "Visual computing and robotics"
+  highlights: 
+    - "Access to HPC facilities"
+    - "Research projects"
+    - "Interdisciplinary projects"
+  careers: 
+    - "Scientific Computing"
+    - "Artificial Intelligence / Machine Learning"
+    - "PhD / Further Study"
+    - "Industry"
+    - "Academia / Research"
+    - "Robotics"
+  entry_requirements: "First-Class degree in a subject with substantial Computing and Mathematics content."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing-visual-computing-robotics-msc/"
+  department_url: "https://www.imperial.ac.uk/engineering/departments/computing/"
+
+
+
+
+- id: "msc-computing-security-and-reliability"
+  name: "MSc Computing (Security and Reliability)"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "Hybrid"
+  duration: "1 year"
+  dates: "October 2027 - June 2028"
+  deadline: "Round closes on Wednesday 6 January 2027"
+  summary: |
+    Specialise in security and reliability on this one-year Master's course.
+    You'll explore in detail the processes and mechanisms by which computer-based equipment, information and services are protected from unintended or unauthorised access.
+    The course examines emerging trends in computing and how these techniques can be adapted in industrial applications.
+    You'll also enhance your computer science research skills on an individual project.
+  subjects: 
+    - "Cybersecurity"
+    - "High-Performance Computing (HPC)"
+    - "Computational Science"
+    - "Computer Science"
+  highlights: 
+    - "Access to HPC facilities"
+    - "Research projects"
+    - "Links with research institutes"
+  careers: 
+    - "HPC / Supercomputing"
+    - "Data Science"
+    - "Research Software Engineering"
+    - "Software Engineering"
+    - "Computational Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "First-Class degree in a subject with substantial Computing content."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing-security-reliability-msc/"
+  department_url: "https://www.imperial.ac.uk/engineering/departments/computing/"
+
+
+
+- id: "msc-advanced-computing"
+  name: "MSc Advanced Computing"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "Hybrid"
+  duration: "1 year"
+  dates: "October 2027 - June 2028"
+  deadline: "Round 2 closes on Wednesday 6 January 2027"
+  summary: |
+    Study advanced computing concepts and technologies and build on your background in computing on this Master's course.
+    You'll enhance your skillbase alongside dedicated experts in a world-leading learning environment. The varied programme is designed to prepare you for further research, or for a career orientated towards development and applications in industry.
+    During your studies, you'll explore up-to-date techniques in computing and software engineering and emerging trends in the industry.
+    You'll also enhance your practical programming skills and produce an element of original research on an individual project.
+  
+  
+  
+  subjects: 
+    - "Computational Science"
+    - "Research Software Engineering"
+    - "GPU Computing"
+    - "Parallel Computing"
+    - "Data Science"
+    - "Machine Learning"
+    - "Artificial Intelligence"
+    - "High-Performance Computing (HPC)"
+    - "Quantum Computing"
+    - "Cloud Computing"
+  highlights: 
+    - "Access to HPC facilities"
+    - "GPU/parallel computing opportunities"
+    - "Research projects"
+  careers: 
+    - "HPC / Supercomputing"
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "Software Engineering"
+    - "Computational Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "First-Class Honours with a substantial Computing component."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/advanced-computing/"
+  department_url: "https://www.imperial.ac.uk/engineering/departments/computing/"
+
+
+
+
+- id: "msc-computing-artificial-intelligence-and-machine-learning"
+  name: "MSC Computing (Artificial Intelligence and Machine Learning)"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "Hybrid"
+  duration: "1 year"
+  dates: "October 2027 - June 2028"
+  deadline: "Round 2 closes on Wednesday 6 January 2027"
+  summary: |
+    Enhance your understanding of artificial intelligence on this Master's course, aimed at students looking to specialise in this area of central importance.
+    The degree will develop your expertise in AI, ensuring you understand the state-of-the-art and can apply techniques to solve problems and develop applications.
+    You'll explore emerging trends and acquire practical programming skills, as well as complete a substantial individual research project in AI.
+  subjects: 
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "GPU Computing"
+    - "Research Software Engineering"
+  highlights: 
+    - "Access to HPC facilities"
+    - "GPU computing opportunities"
+    - "Research projects"
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+    - "Research Software Engineering"
+    - "Software Engineering"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "First-Class Honours with a substantial Computing component."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing-artificial-intelligence-msc/"
+  department_url: "https://www.imperial.ac.uk/engineering/departments/computing/"
+
+
+
+
+
+- id: "msc-computing-software-engineering"
+  name: "MSc Computing (Software Engineering)"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "Hybrid"
+  duration: "1 year"
+  dates: "October 2027 - June 2028"
+  deadline: "Round 2 closes on Wednesday 6 January 2027"
+  summary: |
+    Specialise in the application of engineering to the design, development, and maintenance of software on this Master's course.
+    You’ll explore key aspects of software engineering including scalable systems, verification, program analysis, and performance engineering.
+    The course examines emerging trends in computing and how these techniques can be adapted in industrial applications.
+    You’ll also enhance your project management and research skills on both individual and group projects.
+  subjects: 
+    - "Research Software Engineering"
+    - "Scientific Computing"
+  highlights: 
+    - "Access to HPC facilities"
+    - "GPU/parallel computing opportunities"
+    - "Research projects"
+  careers: 
+    - "HPC / Supercomputing"
+    - "Research Software Engineering"
+    - "Software Engineering"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+    - "Computational Science"
+  entry_requirements: "First-Class degree in a subject with substantial Computing content."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/computing-software-engineering-msc/"
+  department_url: "https://www.imperial.ac.uk/engineering/departments/computing/"
+
+
+
+
+- id: "msc-applied-computational-science-and-engineering"
+  name: "MSc Applied Computational Science and Engineering"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "Hybrid"
+  duration: "1 year"
+  dates: "October 2027 - June 2028"
+  deadline: "Round 2 closes on Wednesday 6 January 2027"
+  summary: |
+    Apply novel science and engineering approaches to solve large scale problems on this Master's course, designed to advance your knowledge of numerical methods and computational science.
+    You'll develop skills and techniques for a range of science and engineering applications utilising high performance computing resources, with guidance from world-class researchers.
+    This course is part of the Ada Lovelace Academy, an initiative from the Department of Earth Science and Engineering aiming to deliver gender-balanced post-graduate education in computational subjects to solve the science and engineering challenges of the 21st century. 
+  subjects: 
+    - "Data Science"
+    - "Computational Science"
+    - "Research Software Engineering"
+    - "Scientific Computing"
+    - "High-Performance Computing (HPC)"
+    - "Parallel Computing"
+    - "GPU Computing"
+  highlights: 
+    - "Access to HPC facilities"
+    - "Focus on gender-balanced post-graduate education"
+    - "GPU/parallel computing opportunities"
+  careers: 
+    - "HPC / Supercomputing"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "Software Engineering"
+    - "Computational Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "2:1 in Engineering or a Science-based subject."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/applied-computational-science/"
+  department_url: "https://www.imperial.ac.uk/engineering/departments/earth-science/"
+
+
+
+- id: "msc-advanced-computational-methods-for-aeronautics-flow-management-and-fluid-structure-interaction"
+  name: "MSc Advanced Computational Methods for Aeronautics, Flow Management and Fluid-Structure Interaction"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "Hybrid"
+  duration: "1 year"
+  dates: "October 2027 - June 2028"
+  deadline: "Round 2 closes on Wednesday 6 January 2027"
+  summary: |
+    Enhance your engineering training or convert to an advanced engineering discipline from a background in mathematics, physics or computer science.
+    This course focuses on the scientific programming needed to perform numerical computations and experimental techniques for aeronautics.
+    You'll be equipped to solve complex problems numerically. As a result, you will be able to write and develop commercial software packages, rather than simply use them.
+    Your particular interest in aerospace engineering will be matched by a series of research-informed modules centred on the latest theories and developments in this area.
+    You'll also complete an individual research project, in which you can focus on your theoretical, computational or experimental interests.
+    Our industry contributions and collaborations are extensive, ensuring you graduate with in-demand technical knowledge, expertise and transferable skills. It may be possible for you to carry out your research project in industry.
+    Throughout the course, you'll develop specialist skills that are attractive to a range of engineering industries, including aerospace, manufacturing, technical consultancy, accountancy, and utilities and transport.
+  subjects: 
+    - "Scientific Computing"
+    - "Computational Science"
+    - "Data Science"
+    - "Research Software Engineering"
+    - "Computer Science"
+  highlights: 
+    - "Access to HPC facilities"
+    - "Industry projects or placements"
+    - "Research projects"
+  careers: 
+    - "HPC / Supercomputing"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "Software Engineering"
+    - "Computational Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "2:1, preferably First, in Engineering, Physics, Mathematics or Computer Science."
+  programme_url: "https://www.imperial.ac.uk/study/courses/postgraduate-taught/computational-methods/"
+  department_url: "https://www.imperial.ac.uk/engineering/departments/aeronautics/"
