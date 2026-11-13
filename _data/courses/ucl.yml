@@ -49,3 +49,151 @@
     - "Data Science"
   entry_requirements: "Relevant disciplines are broadly STEM subjects (Science, Technology, Engineering, Mathematics). Related disciplines at the interface of STEM may be acceptable. During the application stage, we will assess the suitability of your technical background."
   programme_url: "https://ccmi-cdt.org/"
+
+
+- id: "quantum-technologies-msc"
+  name: "Quantum Technologies MSc"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+    - "Part-time"
+  delivery: "On campus"
+  duration: "1 year full-time; 2 years part-time"
+  dates: "September 2027 to June 2028 (full-time) or June 2029 (part-time)"
+  deadline: "Applicants who require a visa: 19 October 2026 to 25 June 2027. Applicants who do not require a visa: 19 October 2026 to 27 August 2027."
+  summary: "The Quantum Technologies MSc will take students to the cutting-edge of research in the emerging area of quantum technologies, giving them not only an advanced training in the relevant physics but also the chance to acquire key skills in the engineering and information sciences."
+  subjects: 
+    - "Quantum Computing"
+  highlights: []
+  careers: 
+    - "Computational Science"
+    - "HPC / Supercomputing"
+  entry_requirements: "Physics, engineering, mathematics, computer science or a related subject."
+  programme_url: "https://www.ucl.ac.uk/study/prospective-students/graduate/courses/quantum-technologies-msc"
+
+- id: "scientific-and-data-intensive-computing-msc"
+  name: "Scientific and Data Intensive Computing MSc"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+    - "Part-time"
+  delivery: "On campus"
+  duration: "1 year full-time; 2 years part-time"
+  dates: "September 2027 to September 2028 (full-time) or September 2029 (part-time)"
+  deadline: "Applicants who require a visa: 19 October 2026 to 25 June 2027. Applicants who do not require a visa: 19 October 2026 to 27 August 2027."
+  summary: "Scientists and engineers are tackling ever more complex problems, most of which do not admit analytical solutions and must be solved numerically. Numerical methods can only play an even more important role in the future as we face even bigger challenges. Therefore, skilled scientific programmers are in high demand in industry and academia and will drive forward much of the future economy."
+  subjects: 
+    - "Scientific Computing"
+    - "Computational Science"
+    - "High-Performance Computing (HPC)"
+  highlights: []
+  careers: 
+    - "HPC / Supercomputing"
+    - "Scientific Computing"
+    - "Computational Science"
+    - "Artificial Intelligence / Machine Learning"
+  entry_requirements: "Science, Engineering or a related subject with strong computing interest."
+  programme_url: "https://www.ucl.ac.uk/study/prospective-students/graduate/courses/scientific-and-data-intensive-computing-msc"
+
+- id: "data-science-and-machine-learning-msc"
+  name: "Data Science and Machine Learning MSc"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: "Applicants who require a visa: 19 October 2026 to 22 March 2027. Applicants who do not require a visa: 19 October 2026 to 27 August 2027."
+  summary: "Become a changemaker in the world of data science and machine learning through one of the most established Master’s courses in this field. Our one-year Data Science and Machine Learning MSc offers modules spanning artificial intelligence and deep learning to digital finance and probabilistic modelling, enabling you to craft a future career in a range of fields."
+  subjects: 
+    - "Machine Learning"
+    - "Scientific Computing"
+    - "Data Science"
+  highlights: []
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+  entry_requirements: "A minimum of an upper second-class UK Bachelor’s degree (or international qualification of an equivalent standard) in a highly quantitative subject such as computer science, mathematics, engineering, physics, or statistics. Additionally, applicants must have knowledge of mathematical methods including linear algebra, calculus, probability and statistics at least at the level taught in the first year of a UK university undergraduate programme in the mathematical sciences. Relevant work experience may also be considered. Depending on the optional modules selected, students undertake assignments that contain programming elements and prior experience in a high-level programming language (e.g., Python) is useful."
+  programme_url: "https://www.ucl.ac.uk/study/prospective-students/graduate/courses/data-science-and-machine-learning-msc"
+
+- id: "data-science-msc"
+  name: "Data Science MSc"
+  qualification: "MSc"
+  study_mode: 
+    - "Full-time"
+    - "Part-time"
+  delivery: "On campus"
+  duration: "1 year full-time; 2 years part-time"
+  dates: "September 2027"
+  deadline: "Applicants who require a visa: 19 October 2026 to 22 March 2027. Applicants who do not require a visa: 19 October 2026 to 27 August 2027."
+  summary: ""
+  subjects: 
+    - "Data Science"
+  highlights: []
+  careers: 
+    - "Artificial Intelligence / Machine Learning"
+  entry_requirements: "A minimum of an upper second-class Bachelor’s degree in a quantitative discipline from a UK university or an overseas qualification of an equivalent standard. Knowledge of mathematical methods and linear algebra at university level is expected, along with evidence of familiarity with introductory probability, statistics and computer programming. Prior experience in a high-level programming language (e.g. R/matlab/python) is a requirement. Relevant professional experience will also be taken into consideration."
+  programme_url: "https://www.ucl.ac.uk/study/prospective-students/graduate/courses/data-science-msc"
+  department_url: "https://www.ucl.ac.uk/mathematical-physical-sciences/statistics"
+
+- id: "data-intensive-science-and-industry-disi-centre-for-doctoral-training"
+  name: "Data Intensive Science and Industry (DISI) Centre for Doctoral Training"
+  qualification: "PhD"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: ""
+  deadline: ""
+  summary: "The Data Intensive Science and Industry (DISI) programme develops advanced skills in data science, artificial intelligence, machine learning, and scientific computing through a combination of specialist training. Students work on data challenges with academic and industry partners, gaining the knowledge needed to solve complex problems across science and technology."
+  subjects: 
+    - "Artificial Intelligence"
+    - "Data Science"
+    - "Machine Learning"
+    - "Scientific Computing"
+    - "Computational Science"
+  highlights: 
+    - "Research projects using large scale datasets from world leading scientific facilities and experiments."
+    - "Opportunities to work alongside academic researchers and industry experts on actual challenges."
+    - "Access to networking events, summer schools, and professional skills development opportunities."
+  careers: 
+    - "PhD / Further Study"
+    - "Industry"
+    - "Academia / Research"
+    - "Computational Science"
+    - "Data Science"
+  entry_requirements: ""
+  programme_url: "https://www.ucl.ac.uk/mathematical-physical-sciences/data-intensive-science-and-industry/about-disi"
+  department_url: "https://www.ucl.ac.uk/mathematical-physical-sciences/"
+
+- id: "quantum-computation-and-quantum-communications"
+  name: "Quantum Computation and Quantum Communications"
+  qualification: "PhD"
+  study_mode: 
+    - "Full-time"
+  delivery: "On campus"
+  duration: "4 years"
+  dates: ""
+  deadline: "1 February 2027"
+  summary: "The Data Intensive Science and Industry (DISI) Centre for Doctoral Training develops advanced skills in data science, machine learning, artificial intelligence, and scientific computing through specialist training and research. Students work on real-world data challenges in partnership with academia and industry, gaining experience with cutting-edge technologies and large-scale scientific datasets."
+  subjects: 
+    - "Data Science"
+    - "Machine Learning"
+    - "Artificial Intelligence"
+    - "Scientific Computing"
+  highlights: 
+    - "Specialist training in machine learning, high performance computing, statistics, data analysis, and research software engineering."
+    - "Collaboration with academic researchers and industry experts on real world artificial intelligence and data intensive science challenges."
+    - "Access to dedicated summer schools, international training opportunities, networking events, and interdisciplinary research projects."
+  careers: 
+    - "HPC / Supercomputing"
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Computational Science"
+    - "PhD / Further Study"
+    - "Academia / Research"
+    - "Industry"
+  entry_requirements: "An outstanding academic record in a relevant technical discipline (for example Physics, Computer Science, Engineering, Mathematics, Materials, Chemistry) coupled with a broad outlook and a strong interest in quantum computation and/or quantum communications. We will be looking for applicants who will have achieved the equivalent of a good UK Masters (e.g. MSci, MPhys, MEng or MSc) degree by the time they join us."
+  programme_url: "https://www.ucl.ac.uk/mathematical-physical-sciences/quantum/study/phd-opportunities/quantum-doctoral-programmes/phd-projects/industrially-co-supervised-projects/how-apply"
+  department_url: "https://www.ucl.ac.uk/mathematical-physical-sciences/"
+  promo_url: "https://www.ucl.ac.uk/mathematical-physical-sciences/quantum/study/phd-opportunities/quantum-doctoral-programmes/phd-projects/industrially-co-supervised-projects"

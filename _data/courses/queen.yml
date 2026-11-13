@@ -1,0 +1,254 @@
+- id: "qmul-artificial-intelligence"
+  name: "MSc Artificial Intelligence"
+  qualification: "MSc"
+  study_mode:
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: ""
+  summary: |
+    This MSc allows you to focus your studies and combine different AI topics to suit your personal requirements and future plans. Our world-class teaching, research, and industrial contacts will support you as you learn to understand fundamental AI concepts. You will study universal machine learning tools essential for any AI job profile, as well as specific practical and research skills across various AI topics.
+    
+    You will gain experience with cutting-edge tools such as Deep Neural Networks (DNN), Deep Reinforcement Learning (Deep RL), and Large Language Models (LLMs) through regular exercises and practical labs. You will work closely with your lecturers and supervisors to carry out a major project on the AI topic you wish to specialise in.
+  subjects:
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Computer Science"
+  highlights: []
+  careers:
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Research Software Engineering"
+    - "Software Engineering"
+  entry_requirements: "UK students: 2:1 or above at undergraduate level in Electronic Engineering, Computer Science, Software Engineering, Information Technology, Mathematics or a related discipline. Applicants with a good 2:2 degree (55% or above) will be considered on an individual basis. International: varies by country of qualification - see QMUL Course finder for details."
+  programme_url: "https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/artificial-intelligence-msc/"
+  department_url: "https://www.qmul.ac.uk/eecs/"
+
+- id: "artificial-intelligence-and-machine-learning-in-science"
+  name: "MSc Artificial Intelligence and Machine Learning in Science"
+  qualification: "MSc"
+  study_mode:
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: ""
+  summary: |
+    This cross-disciplinary masters programme will teach you the fundamentals of AI and Machine Learning, and how these can be applied to real-world scientific problems. It covers the fundamental concepts of Artificial Intelligence with a focus on the theoretical knowledge and practical skills required to apply machine learning techniques to a variety of scientific industries, research areas and real-world problems.
+
+  subjects:
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+  highlights:
+    - "Develop the coding and programming skills required to apply artificial intelligence to a wide range of fields."  
+    - "Work with real datasets from our world-leading research with links to organisations such as CERN, NASA and LIGO."
+    - "Study the essential mathematical concepts that underpin artificial intelligence and machine learning such as probability, statistics and time series."
+    - "Learn from expert academics, including former industry practitioners, Fellows of the Alan Turing Institute and members of Queen Mary’s Digital Environment Research Institute (DERI)."
+    - "No programming experience required."
+  careers:
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+  entry_requirements: "UK students: a good 2:2 (55% or above) or above at undergraduate level in Mathematics, Physics, Chemistry, Computing, Engineering or any other STEM subject. International: varies by country of qualification - see QMUL Course finder for details."
+  programme_url: "https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/artificial-intelligence-and-machine-learning-in-science-msc/"
+  department_url: "https://www.qmul.ac.uk/spcs/"
+
+- id: "artificial-intelligence-for-drug-discovery"
+  name: "MSc Artificial Intelligence for Drug Discovery"
+  qualification: "MSc"
+  study_mode:
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: ""
+  summary: |
+    The programme has been designed to prepare you for a career in computational drug discovery. 
+
+    You'll developed advanced computational skills. We will teach you how to code in Python and how to implement and use machine and deep learning methods in the context of drug discovery, interpret their predictions and assess their quality. 
+
+    You'll build a solid foundation in the essential concepts of drug discovery such as how to design a molecule to bind a target protein and how to optimise its chemical structure. 
+
+    You'll have the opportunity to apply your computational skills to drug discovery as you study scientific computing and learn modelling and simulation techniques for biomolecular systems. 
+  
+  subjects:
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Scientific Computing"
+    - "Computational Modelling"
+    - "Computational Chemistry"
+    - "Cybersecurity"
+  highlights: []
+  careers:
+    - "Data Science"
+    - "Artificial Intelligence / Machine Learning"
+    - "Computational Drug Discovery Scientist"
+    - "Research Software Engineering"
+    - "Academia / Research"
+    - "PhD / Further Study"
+  entry_requirements: "UK students: a good 2:2 (55% or above) or above at undergraduate level in Chemistry, Pharmaceutical Chemistry, Medicinal Chemistry, Biochemistry, Pharmacy, Biomedical Sciences or a related discipline. International: varies by country of qualification - see QMUL Course finder for details."
+  programme_url: "https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/artificial-intelligence-for-drug-discovery-msc/"
+  department_url: "https://www.qmul.ac.uk/spcs/"
+
+- id: "artificial-intelligence-in-the-biosciences"
+  name: "MSc Artificial Intelligence in the Biosciences"
+  qualification: "MSc"
+  study_mode:
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: ""
+  summary: |
+    This programme aims to prepare bioscience graduates to become leaders in the application of AI methods in professional bioscience Research and Development workplace environments. It has been specifically designed to make AI and related computational techniques (machine learning, analysis of large data sets) accessible to biology and biomedical graduate students without any prior experience in computational methods.
+    
+    This multifaceted programme builds the knowledge and skills needed to kick-start your career in professional bioscience research, consulting, and development. Teaching is jointly delivered by experts in the School of Biological and Behavioural Sciences and The School of Mathematical Sciences and will cover areas such as applications of AI and Data Science in Biology, Ecology, and Biomedicine, alongside technical skills such as coding, statistics, and the analysis of large datasets. You’ll also benefit from Queen Mary’s strong links to the AI sector, with the university being a member of the Alan Turing Institute and home to the Digital Environment Research Institute (DERI), one of the UK’s leading centres for AI research and innovation.
+
+  subjects:
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Data Science"
+    - "Research Software Engineering"
+    - "Cybersecurity"
+  highlights: []
+  careers:
+    - "Research Software Engineering"
+    - "Scientific Computing"
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "UK students: a 2:1 or above at undergraduate level in a Science subject such as Biology, Chemistry, Mathematics or a related subject. Applicants with a good 2:2 degree (55% or above) will be considered on an individual basis. International: varies by country of qualification - see QMUL Course finder for details."
+  programme_url: "https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/artificial-intelligence-in-the-biosciences-msc/"
+  department_url: "https://www.qmul.ac.uk/sbbs/"
+
+- id: "qmul-data-science"
+  name: "MSc Data Science"
+  qualification: "MSc"
+  study_mode:
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: ""
+  summary: |
+      This programme is designed to address the growing demand for highly skilled data scientists and engineers capable of combining advanced computer science techniques with modern statistical methods to extract insights and create data-driven services.
+
+      You will cover fundamental statistical and analytical concepts (such as machine learning) and technological tools (such as cloud platforms, Spark) for large-scale data analysis.
+
+      You will also undertake a large project where you will demonstrate the application of data science skills in a complex scenario.
+  
+  subjects:
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "Cloud Computing"
+  highlights: []
+  careers:
+    - "Data Science"
+    - "Artificial Intelligence / Machine Learning"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "UK students: a 2:1 or above at undergraduate level in Electronic Engineering, Computer Science, Software Engineering, Information Technology or a related discipline. Other backgrounds can be considered subject to demonstrating satisfactory knowledge of programming. Applicants with a good 2:2 degree (55% or above) will be considered on an individual basis. International: varies with country of qualification - see the QMUL Course finder for details."
+  programme_url: "https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/data-science-msc/"
+  department_url: "https://www.qmul.ac.uk/eecs/"
+
+- id: "qmul-advanced-computer-science"
+  name: "MSc Advanced Computer Science"
+  qualification: "MSc"
+  study_mode:
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: ""
+  summary: |
+    This programme offers a multidisciplinary approach, integrating computer science with diverse fields to enhance your existing knowledge. You'll develop skills in functional programming, explore semi-structured data and advanced data modelling, and establish foundational understanding in security, authentication, and Bayesian decision-making. Tailor your studies with a variety of industry-focused optional modules.
+  subjects:
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Computational Science"
+    - "Research Software Engineering"
+    - "Computer Science"
+    - "Cloud Computing"
+  highlights: []
+  careers:
+    - "HPC / Supercomputing"
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Scientific Computing"
+    - "Research Software Engineering"
+    - "Software Engineering"
+    - "Computational Science"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "UK students: a 2:1 or above at undergraduate level in Electronic Engineering, Computer Science, Software Engineering, Information Technology, Mathematics or a related discipline. Applicants with a good 2:2 degree (55% or above) will be considered on an individual basis. International: varies by country of qualification - see the QMUL Course finder for more details."
+  programme_url: "https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/advanced-computer-science-msc/"
+  department_url: "https://www.qmul.ac.uk/eecs/"
+
+- id: "health-data-in-practice"
+  name: "MSc Health Data in Practice"
+  qualification: "MSc"
+  study_mode:
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: ""
+  summary: |
+    The MSc Health Data in Practice offers a cutting-edge, human-centred approach to health and care data, equipping you with the tools and insights needed to drive innovation in real-world setting. Immerse yourself in an interdisciplinary curriculum that integrates statistics, epidemiology, health informatics, health inequalities, and qualitative research methods, allowing you to harness multidisciplinary approaches to design impactful study and inform critical decision-making.
+  subjects:
+    - "Data Science"
+    - "Quantitative Methods"
+  highlights: []
+  careers:
+    - "Data Science"
+    - "Industry"
+    - "Public health bodies"
+  entry_requirements: "UK students: a 2:1 or above at undergraduate level in a related discipline. Relevant subjects include quantitative disciplines such as Statistics, Computer Science, Mathematics, Bioinformatics and Biomedical Sciences, and qualitative disciplines such as Epidemiology and Public Health. Applications from those with less quantitatively oriented Natural Sciences degrees, such as Biology and Medicine, are welcome if they have focused on the more quantitative elements of those degrees. International: varies by country of qualification - see the QMUL Course finder for more details."
+  programme_url: "https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/health-data-in-practice-msc/"
+  department_url: "https://www.qmul.ac.uk/wiph/"
+
+- id: "linguistics-and-ai"
+  name: "MSc Linguistics and AI"
+  qualification: "MSc"
+  study_mode:
+    - "Full-time"
+  delivery: "On campus"
+  duration: "1 year"
+  dates: "September 2027"
+  deadline: ""
+  summary: |
+    Artificial intelligence and computational linguistics are transforming industries, from social media to marketing, by applying AI to language data. This programme offers a foundation in these techniques, perfect if you are looking to pursue a career in AI without a technical background. It’s led by our renowned Department of Linguistics.
+  subjects:
+    - "Artificial Intelligence"
+    - "Machine Learning"
+    - "Computational linguistics"
+    - "Data Science"
+    - "Research Software Engineering"
+  highlights:
+    - "Study in one of the top Linguistics Departments in the UK."
+    - "Build a solid foundation in AI methods applied to language data."
+    - "Gain skills in computational linguistics, python programming, statistics for language analysis, language and AI."
+    - "Learn from professionals about how to apply linguistics in the real world."
+  
+  careers:
+    - "Artificial Intelligence / Machine Learning"
+    - "Data Science"
+    - "Research Software Engineering"
+    - "Academia / Research"
+    - "PhD / Further Study"
+    - "Industry"
+  entry_requirements: "UK Students: A 2:1 or above at undergraduate level in any subject. Candidates that do not currently meet the set entry requirements may also have the option to study the Graduate Diploma in Humanities and Social Sciences. Meeting the required grades on completion of this programme will provide a pathway to study MSc Linguistics and AI. International: Varies by country of qualification. See the QMUL Course finder for details."
+  programme_url: "https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/linguistics-and-ai-msc/"
+  department_url: "https://www.qmul.ac.uk/arts/"
