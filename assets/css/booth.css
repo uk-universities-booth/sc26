@@ -166,6 +166,17 @@
 .mapnote button{display:inline-flex;align-items:center;gap:.5em;min-height:2.6em;padding:0 1em;border:1.5px solid var(--acc);border-radius:99px;background:#fff;color:var(--acc);font-weight:700;cursor:pointer}
 .mapnote button::before{content:"i";display:inline-grid;place-items:center;width:1.5em;height:1.5em;border-radius:50%;background:var(--acc);color:#fff;font:italic 700 .85em serif}
 
+
+/* [A7c] TAKE-AWAY QR CARD (laptop + iPad). Sits beside the disclaimer strip under the map.
+   .tq svg width/height = QR size (5em). Hidden on phones: see [C2]. */
+.mapfoot{flex:none;display:flex;gap:.6em;align-items:stretch}
+.mapfoot .mapnote{flex:1 1 0;min-width:0}
+.takeaway{position:absolute;top:.7em;right:.7em;z-index:8;display:flex;flex-direction:column;align-items:center;gap:.3em;width:8em;padding:.5em .5em .6em;border:1px solid var(--line);border-top:.35em solid var(--acc);border-radius:1em;background:#fff;box-shadow:0 6px 20px rgba(22,33,58,.18);text-align:center}
+.tq svg{display:block;width:6em;height:6em;padding:.2em;background:#fff;box-sizing:content-box}
+.takeaway p{font-size:.72em;line-height:1.25}
+.takeaway p span{display:none}
+
+
 /* [A8] MAP DOTS (the numbered circles)
    border width scales with dot size. font-size = the number inside.
    .dot::before = invisible extra tap area around each dot (inset:-10px).
@@ -467,6 +478,10 @@
   .facts dd{margin:0;text-align:right}
 }
 
+/* [C2] Hide the take-away QR on phones (portrait or landscape): they are already on the page. */
+@media (max-width:699px),(max-height:500px){
+  .takeaway{display:none!important}
+}
 
 /* =====================================================================
    PART D - iPAD PORTRAIT ONLY (700px+ wide and taller than wide)

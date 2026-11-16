@@ -208,73 +208,58 @@ function renderDetail(c) {
   [c.qualification, ...arr(c.study_mode), c.delivery !== "Other" ? c.delivery : ""].filter(Boolean).forEach((t, i) => tg.append(h("span", i ? "" : "q", t)));
   d.append(tg, h("h3", "", c.name));
   (c.summary || "")
-  .trim()
-  .split(/\n\s*\n/)
-  .map(p => p.replace(/\n/g, " ").trim())
-  .filter(Boolean)
-  .forEach((p, i) => {
-    d.append(h("p", "sum lead", p));
+    .trim()
+    .split(/\n\s*\n/)
+    .map(p => p.replace(/\n/g, " ").trim())
+    .filter(Boolean)
+    .forEach(p => d.append(h("p", "sum lead", p)));
+
+  const f = h("dl", "facts");
+  [["Duration", c.duration], ["Starts", c.dates], ["Apply by", c.deadline]].forEach(([k, v]) => {
+    const x = h("div", tbc(v) ? "tbc" : "");
+    const dd = h("dd");
+    if (tbc(v)) {
+      dd.textContent = "To be confirmed";
+    } else if (k === "Apply by") {
+      const blocks = String(v).trim().split(/\n\s*\n/).filter(Boolean);
+      blocks.forEach(block => {
+        const lines = block.split(/\n/).map(line => line.trim()).filter(Boolean);
+        if (lines.every(line => line.startsWith("- "))) {
+          const ul = h("ul", "deadline-list");
+          lines.forEach(line => ul.append(h("li", "", line.replace(/^-+\s*/, ""))));
+          dd.append(ul);
+        } else {
+          dd.append(h("p", "", lines.join(" ")));
+        }
+      });
+    } else {
+      dd.textContent = v;
+    }
+    x.append(h("dt", "", k), dd);
+    f.append(x);
   });
-
-const f = h("dl", "facts");
-
-[["Duration", c.duration], ["Starts", c.dates], ["Apply by", c.deadline]].forEach(([k, v]) => {
-  const x = h("div", tbc(v) ? "tbc" : "");
-  const dd = h("dd");
-
-  if (tbc(v)) {
-    dd.textContent = "To be confirmed";
-  } else if (k === "Apply by") {
-    const blocks = String(v).trim().split(/\n\s*\n/).filter(Boolean);
-
-    blocks.forEach(block => {
-      const lines = block.split(/\n/).map(line => line.trim()).filter(Boolean);
-
-      if (lines.every(line => line.startsWith("- "))) {
-        const ul = h("ul", "deadline-list");
-        lines.forEach(line => {
-          ul.append(h("li", "", line.replace(/^-+\s*/, "")));
-        });
-        dd.append(ul);
-      } else {
-        dd.append(h("p", "", lines.join(" ")));
-      }
-    });
-  } else {
-    dd.textContent = v;
-  }
-
-  x.append(h("dt", "", k), dd);
-  f.append(x);
-});
-
-d.append(f);
+  d.append(f);
 
   const main = h("div", "main"), aux = h("aside", "aux");
   if (arr(c.highlights).length) { const ul = h("ul", "hl"); c.highlights.forEach(i => ul.append(h("li", "", i))); main.append(sec("Highlights", ul)); }
-[["How it is taught", c.delivery_note], ["Entry requirements", c.entry_requirements]].forEach(([k, v]) => {
-  if (!v) return;
-
-  const t = h("div", "txt");
-
-  v.trim()
-    .split(/\n\s*\n/)
-    .map(p => p.replace(/\n/g, " ").trim())
-    .filter(Boolean)
-    .forEach(p => t.append(h("p", "", p)));
-
-  main.append(sec(k, t));
-});
-
-[c.notes, c.programme_note].forEach(n => {
-  if (!n) return;
-
-  n.trim()
-    .split(/\n\s*\n/)
-    .map(p => p.replace(/\n/g, " ").trim())
-    .filter(Boolean)
-    .forEach(p => main.append(h("p", "note", p)));
-});
+  [["How it is taught", c.delivery_note], ["Entry requirements", c.entry_requirements]].forEach(([k, v]) => {
+    if (!v) return;
+    const t = h("div", "txt");
+    v.trim()
+      .split(/\n\s*\n/)
+      .map(p => p.replace(/\n/g, " ").trim())
+      .filter(Boolean)
+      .forEach(p => t.append(h("p", "", p)));
+    main.append(sec(k, t));
+  });
+  [c.notes, c.programme_note].forEach(n => {
+    if (!n) return;
+    n.trim()
+      .split(/\n\s*\n/)
+      .map(p => p.replace(/\n/g, " ").trim())
+      .filter(Boolean)
+      .forEach(p => main.append(h("p", "note", p)));
+  });
 
   /* portrait: the first link plus Share become a sticky action bar, the rest move into a "More links" section */
   const portrait = portraitMQ.matches;
@@ -351,6 +336,33 @@ about.addEventListener("click", e => { if (e.target === about) closeAbout(); });
 document.addEventListener("keydown", e => { if (e.key === "Escape") closeAbout(); });
 /* on the booth iPad, don't open a new tab: show the dialog, which has the QR code */
 $("cake").addEventListener("click", e => { if (KIOSK) { e.preventDefault(); openAbout(); } });
+
+/* ---------- take-away QR (top-right corner of the map, laptop + iPad) ---------- */
+{
+  const pageUrl = location.origin + location.pathname;   /* clean address: no ?kiosk */
+  const build = () => {
+    let card = $("takeaway");
+    if (!card) { card = document.createElement("aside"); card.id = "takeaway"; }
+    map.append(card);                                     /* always inside the map */
+    card.hidden = false;
+    card.style.cssText = "position:absolute;top:.7em;right:.7em;z-index:20;display:flex;flex-direction:column;align-items:center;gap:.3em;width:8em;padding:.5em;background:#fff;border:1px solid #e5dcd6;border-top:.35em solid #0b6b73;border-radius:1em;box-shadow:0 6px 20px rgba(22,33,58,.18);text-align:center;font-size:.8em";
+    const s = qrSvg(pageUrl);
+    s.setAttribute("aria-label", "QR code for this map");
+    s.style.cssText = "display:block;width:6em;height:6em;background:#fff";
+    const cap = h("p", "", "Take this map with you");
+    cap.style.cssText = "margin:0;font-weight:700;font-size:.85em;line-height:1.25";
+    card.replaceChildren(s, cap);
+  };
+  const run = () => { try { build(); } catch (e) { console.error("Take-away QR failed", e); } };
+  if (window.qrcode) run();
+  else {                                                  /* backup: load the QR library from a second CDN */
+    const sc = document.createElement("script");
+    sc.src = "https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js";
+    sc.onload = run;
+    sc.onerror = () => console.error("QR library could not be loaded");
+    document.head.append(sc);
+  }
+}
 
 /* ---------- kiosk: reset after 90 s without a touch ---------- */
 let idle;
